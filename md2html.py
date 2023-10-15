@@ -97,7 +97,7 @@ def markdown_table_to_html(markdown_table):
         for cell in cells:
             if cell.startswith('@'):
                 username = cell[1:]
-                cell_content = f'<{tag}>{username}">{cell}</a></{tag}>'
+                cell_content = f'<{tag}><a href="https://www.chess.com/member/{username}">{cell}</a></{tag}>'
             else:
                 cell_content = f'<{tag}>{cell}</{tag}>'
             html_table += f'    {cell_content}\n'
