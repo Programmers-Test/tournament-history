@@ -1,0 +1,13 @@
+Hạng|Bot|Elo
+---|---|---
+#1|Viet-AI|2903
+#2|Viet-BOT|2830
+#3|Viet_BOT|2823
+#4|Hien-Vinh_Bot2|2779
+#5|bluefake|2737
+#6|Vinh_VariantsBot|2615
+#7|Nam-stockfish|2579
+#8|dangkhoi2805|2571
+#9|TungJohn|2340
+#10|TungJohnPlayingChess|2102
+#11|gam3play3r-BOT|1951
