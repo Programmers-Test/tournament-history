@@ -19,7 +19,7 @@ css_styles = """
   <script async src="https://stats.chessnibble.com/script.js" data-website-id="8205b599-208b-4d50-be05-5a4bb2f3775d"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <link rel="icon" href="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/libot-leaderboard/master/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/tournaments-leaderboard/master/images/favicon.ico" type="image/x-icon" />
   <header>
             <nav>
                 <a href="https://thi-vua-lay-tot.github.io/tournaments-leaderboard/">< Quay lại</a>
@@ -67,7 +67,7 @@ css_styles = """
 footer_styles = """
 <footer>
   <p>
-    <a href="https://github.com/Thi-Vua-Lay-Tot/libot-leaderboard">
+    <a href="https://github.com/Thi-Vua-Lay-Tot/tournaments-leaderboard">
       <img class="github-logo" src="https://github.com/fluidicon.png" alt="GitHub Icon">
     </a>
     Tạo bởi <a href="https://github.com/M-DinhHoangViet">Đinh Hoàng Việt</a>
@@ -77,7 +77,7 @@ footer_styles = """
 
 def generate_h1_tag(filename):
     title = os.path.splitext(filename)[0].capitalize()
-    h1_tag = f"<h1>Bảng xếp hạng {title}</h1>"
+    h1_tag = f'<h1 align="center">Bảng xếp hạng {title}</h1>'
     return h1_tag
 
 def markdown_table_to_html(markdown_table):
