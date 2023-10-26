@@ -5,7 +5,6 @@ app = Flask(__name__)
 TYPES = [
     'dttv',
     'tvlt',
-    'cst',
     'bestPlayers'
 ]
 
@@ -14,10 +13,10 @@ TYPES = [
 def welcome_page():
     return send_file('index.html')
 
-@app.route('/html/<type_name>')
-def chess_bot_type(type_name):
+@app.route('/<type_name>')
+def leaderboard(type_name):
     if type_name in TYPES:
-        return send_file(f'html/{type_name}.html')
+        return send_file(f'{type_name}.html')
     else:
         return "Loại không hợp lệ", 404
 

@@ -1,5 +1,5 @@
-Hạng|Kỳ thủ|Elo
+Hạng|Kỳ thủ|Danh hiệu
 ---|---|---
-#1|Viet-AI 🚫|2600
-#2|Viet_BOT|2344
-#3|Viet-BOT|2312
+#1|Viet-AI 🚫|🥇(TVLT 1), 🥈
+#2|Viet_BOT|2344🥉
+#3|Viet-BOT|🥈
