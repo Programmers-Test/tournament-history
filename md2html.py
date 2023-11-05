@@ -79,6 +79,7 @@ footer_styles = """
 
 def generate_h1_tag(filename):
     title = os.path.splitext(filename)[0].capitalize()
+    utc_datetime = datetime.datetime.utcnow()
     h1_tag = f'<h1 align="center">Bảng xếp hạng {title}</h1><p> Lần cuối cập nhật: {utc_datetime.hour}:{utc_datetime.minute}:{utc_datetime.second} UTC, ngày {utc_datetime.day} tháng {utc_datetime.month} năm {utc_datetime.year}</p>'
     return h1_tag
 
