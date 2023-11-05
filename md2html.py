@@ -1,17 +1,19 @@
-import re
-import os
-import os.path
-import subprocess
-import sys
+import datetime
 import logging
 import logging.handlers
+import os
+import os.path
+import re
+import subprocess
+import sys
+
 
 css_styles = """
 <head>
   <style>
-			body{
-				background-color: #f0A51;
-}
+	body{
+		background-color: #f0A51;
+	}
   </style>
   <title> Bảng xếp hạng giải đấu </title>
   <meta charset="UTF-8">
@@ -77,7 +79,7 @@ footer_styles = """
 
 def generate_h1_tag(filename):
     title = os.path.splitext(filename)[0].capitalize()
-    h1_tag = f'<h1 align="center">Bảng xếp hạng {title}</h1>'
+    h1_tag = f'<h1 align="center">Bảng xếp hạng {title}</h1><p> Lần cuối cập nhật: {utc_datetime.hour}:{utc_datetime.minute}:{utc_datetime.second} UTC, ngày {utc_datetime.day} tháng {utc_datetime.month} năm {utc_datetime.year}</p>'
     return h1_tag
 
 def markdown_table_to_html(markdown_table):
