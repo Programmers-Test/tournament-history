@@ -108,18 +108,12 @@ def markdown_table_to_html(markdown_table):
     html_table += '</table>'
     return html_table
 
-directories = ['html']
+directories = ['leaderboard', 'top']
 
 for directory in directories:
     for filename in os.listdir(directory):
         if filename.endswith('.md'):
             with open(os.path.join(directory, filename), 'r') as md_file:
-                if filename not in ['bestPlayers.md']:
-                    f = filename
-                else:
-                    f = "best players.md"
-                h1_tag = generate_h1_tag(f)
-
                 markdown_table = md_file.read()
                 html_table = markdown_table_to_html(markdown_table)
 

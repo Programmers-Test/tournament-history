@@ -15,9 +15,16 @@ def welcome_page():
     return send_file('index.html')
 
 @app.route('/<type_name>')
+def top(type_name):
+    if type_name in TYPES:
+        return send_file(f'top/{type_name}.html')
+    else:
+        return "Loại không hợp lệ", 404
+
+@app.route('/<type_name>')
 def leaderboard(type_name):
     if type_name in TYPES:
-        return send_file(f'{type_name}.html')
+        return send_file(f'leaderboard/{type_name}.html')
     else:
         return "Loại không hợp lệ", 404
 
