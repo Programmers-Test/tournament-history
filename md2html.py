@@ -108,7 +108,7 @@ def markdown_table_to_html(markdown_table):
     html_table += '</table>'
     return html_table
 
-directories = ['html']
+directories = ['leaderboard', 'top']
 
 for directory in directories:
     for filename in os.listdir(directory):
