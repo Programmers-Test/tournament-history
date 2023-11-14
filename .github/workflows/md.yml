@@ -1,9 +1,10 @@
 name: Cập nhật tệp `md` sang tệp `html`
 
 on:
-  schedule:
-    - cron: "22 */22 * * *"
-  workflow_dispatch:
+  push:
+    paths:
+      - 'top/**'
+      - 'leaderboard/**'
 
 env:
   TOKEN: ${{ secrets.TOKEN }}
