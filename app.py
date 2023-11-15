@@ -5,7 +5,7 @@ app = Flask(__name__)
 TYPES = [
     'dttv',
     'tvlt',
-    'tkcg',
+    'cbtt',
     'bestPlayers'
 ]
 
