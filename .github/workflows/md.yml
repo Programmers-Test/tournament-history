@@ -1,4 +1,4 @@
-name: Cập nhật tệp `md` sang tệp `html`
+name: Cập nhật tệp .md sang tệp .html
 
 on:
   push:
@@ -38,5 +38,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "Cập nhật tệp `md` sang tệp `html`"
+          git commit -m "Cập nhật tệp .md sang tệp .html"
           git push --force
