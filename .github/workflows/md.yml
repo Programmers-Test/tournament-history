@@ -6,8 +6,8 @@ on:
       - 'top/bestPlayers.md'
       - 'top/tvlt.md'
       - 'top/dttv.md'
-      - 'top/tkcg.md'
-      - 'leaderboard/tkcg.md'
+      - 'top/cbtt.md'
+      - 'leaderboard/cbtt.md'
       - 'leaderboard/tvlt.md'
       - 'leaderboard/dttv.md'
 
