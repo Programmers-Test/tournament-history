@@ -104,7 +104,7 @@ def markdown_table_to_html(markdown_table):
                 cell_content = f'<{tag}><a href="{chesscom}/member/{username}">{cell}</a></{tag}>'
             elif cell.startswith('/'):
                 link = cell[1:]
-                cell_content = f'<{tag}><a href="{chesscom}/tournament{link}">Nhấn vào đây!{cell}</a></{tag}>'
+                cell_content = f'<{tag}><a href="{chesscom}/tournament{link}">Nhấn vào đây!</a></{tag}>'
             else:
                 cell_content = f'<{tag}>{cell}</{tag}>'
             html_table += f'    {cell_content}\n'
