@@ -14,7 +14,20 @@ Lần|Ngày tổ chức🕗|Thể lệ♟️|Giải nhất 🥇|Giải nhì 🥈
 #12|25/03/2023|5+2 KOTH, Arena 2h|@KhoaTranB|@NguyenNgocThaoNguyen|@sovietunion1922|71|/arena/c-trung-tm--u-trng-th-vua-ln-12-2595797
 #13|08/04/2023|5+2 Crazyhouse, Arena 2h|@Timed_Chess|@chickenvds|@anhkhanhdeptrainhatthe|52|/arena/c-t-qun--u-trng-th-vua-ln-13-2621423
 #14|29/04/2023|10+5 Bughouse, Arena 2h|@M-DinhHoangViet|@Bongcloud0403|@CaiNitCungChangCon|51|/arena/c-vua-i--u-trng-th-vua-ln-14-2659721
-#15|||||||
+#15|07/05/2023|5+5 Chess960, Arena 2h|@TNDuyMinh|@Bongcloud0403|@NguyenPanAnhTuan2k9|81|/arena/c-ngu-nhin--u-trng-th-vua-ln-15-2683469
+#16|17/06/2023|10+5 3Check, Arena 1h30p|@Tony2442|@locbughouse|@TrongVinh123|41|/arena/c-3-chiu--u-trng-th-vua---ln-16-2736589
+#17|24/06/2023|10+5 Rapid, Arena 2h|@itsHarveyOfficial|@Datbeo0259|@TruongSonVN210|56|/arena/c-tiu-chun--u-trng-th-vua-ln-17--2750782
+#18|01/07/2023|5+5 KOTH, Swiss 7 vòng|@TokudaShigeoJr|@LightInMyEye|@Tony2442|31|/c-trung-tm--u-trng-th-vua-ln-18-4133434
+#19|15/07/2023|5+5 Bughouse, Arena 2h|@duongnm2407|@TieuCongChua|@QuangDung2408|80|/arena/c-bn-i--u-trng-th-vua-ln-19-2817029
+#20|||||||
+#21|||||||
+#22|||||||
+#23|||||||
+#24|||||||
+#25|||||||
+#|||||||
+#|||||||
+#|||||||
 #|||||||
 #|||||||
 #|||||||
