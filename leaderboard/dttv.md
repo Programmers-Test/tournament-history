@@ -19,15 +19,23 @@ Lần|Ngày tổ chức🕗|Thể lệ♟️|Giải nhất 🥇|Giải nhì 🥈
 #17|24/06/2023|10+5 Rapid, Arena 2h|@itsHarveyOfficial|@Datbeo0259|@TruongSonVN210|56|/arena/c-tiu-chun--u-trng-th-vua-ln-17--2750782
 #18|01/07/2023|5+5 KOTH, Swiss 7 vòng|@TokudaShigeoJr|@LightInMyEye|@Tony2442|31|/c-trung-tm--u-trng-th-vua-ln-18-4133434
 #19|15/07/2023|5+5 Bughouse, Arena 2h|@duongnm2407|@TieuCongChua|@QuangDung2408|80|/arena/c-bn-i--u-trng-th-vua-ln-19-2817029
-#20|||||||
-#21|||||||
-#22|||||||
-#23|||||||
-#24|||||||
-#25|||||||
-#|||||||
-#|||||||
-#|||||||
-#|||||||
-#|||||||
+#20|16/07/2023|5+5 Crazyhouse, Arena 2h|@TieuCongChua|@tienthanh2020|@HuongKhiet|50|/arena/c-t-qun--u-trng-th-vua-ln-20-2828662
+#21|29/07/2023|5+5 Chess960, Arena 2h|@TokudaShigeoJr|@BaoYT303|@thanhtinh2009|39|/arena/c-ngu-nhin--u-trng-th-vua-ln-21-2843048
+#22|05/08/2023|3+2 3Check, Swiss 7 vòng|@TokudaShigeoJr|@Duong_Nhat|@TrongVinh123|40|/c-3-chiu--u-trng-th-vua-ln-16-4210551
+#23|12/08/2023|1+1 Chess960, Arena 2h|@Hiep_Le2011|@MaCUONG123|@khointa|61|/arena/c-ngu-nhin--u-trng-th-vua-ln-23-2877907
+#24|13/08/2023|1+1 3Check|@TokudaShigeoJr|@trongvinh123|@tungjohn1999|45|/arena/c-3-chiu--u-trng-th-vua-ln-24-2877908
+#25|09/09/2023|10+0 FEN, Arena 4h|@Namsomot|@TokudaShigeoJr|@doandinhlam22|83|/arena/c-sng-to--u-trng-th-vua-ln-25-2916621
+#26|10/09/2023|10+5 FEN|@TokudaShigeoJr|@ThanhBinhHaNam|@MinhBlack2808|60|/arena/c-sng-to--u-trng-th-vua-ln-26-2917392
+#27|23/09/2023|5+5 FEN, Swiss 9 vòng|@greenjelly2k|@gravityrarl123|@khumcanbit|42|/c-sng-to--u-trng-th-vua-ln-27-4304276
+#28|24/09/2023|5+5 FEN, Swiss 10 vòng|@khumcanbit|@ToanDucBui|@TRUONGHIEUNGHIA247|34|/c-sng-to--u-trng-th-vua-ln-28-4304504
+#29|29/09/2023|5+5 FEN, Swiss 5 vòng|@TokudaShigeoJr|@MinhBlack2808|@songokudragonball2012|17|/c-sng-to--u-trng-th-vua-ln-29-4304515
+#30|07/10/2023|10+5 FEN, Arena 2h|@ChessLegend-PKT|@khongten00|@tungjohn1999|40|/arena/c-sng-to--u-trng-th-vua-ln-30-2968427
+#31|21/10/2023|7+3 Bughouse, Arena 2h|@Anh_loc|@rimuru9102|@Huongkhiet|91|/arena/c-vua-i--u-trng-th-vua-ln-31-2993092
+#32|04/11/2023|1+1 3Check, Swiss 7 vòng|@TokudaShigeoJr|@tuanfunboy|@TNKP2012|21|/c-3-chiu--u-trng-th-vua-ln-32-4362342
+#33|04/11/2023|10+0 Rapid, Arena 3h|@HoGiaKhang|@nnpblood|@tungGMvp|76|/arena/c-tiu-chun--u-trng-th-vua-ln-33-3007669
+#34|18/11/2023|5+5 FEN, Arena 2h|@GMvuhoahiep1234|@Warzard1|@SternVN|61|/arena/c-sng-to--u-trng-th-vua-ln-34-3043653
+#35|25/11/2023|5+5 KOTH, Arena 2h|@Anvanvuong1234|@TokudaShigeoJr|@nguyendat2005|59|/arena/c-trung-tm--u-trng-th-vua-ln-35-3056138
+#36|26/11/2023|1+1 Crazyhouse, Arena 2h|@M_SunnyO_O|@xuanvinhvioeduvn|@knightnight97|58|/arena/c-cm-qun--u-trng-th-vua-ln-36-3056575
+#37|03/12/2023|1+1 Chess960, Arena 2h|@Inthetake|@TokudaShigeoJr|@nguyentanphat369|48|/arena/c-ngu-nhin--u-trng-th-vua-ln-37-3069170
+#38|16/12/2023|15+1 Rapid, Arena 2h|||||
 #|||||||
