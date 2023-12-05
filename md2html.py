@@ -102,7 +102,7 @@ def markdown_table_to_html(markdown_table):
             if cell.startswith('@'):
                 username = cell[1:]
                 cell_content = f'<{tag}><a href="{chesscom}/member/{username}">{cell}</a></{tag}>'
-            elif cell.startswith('/')
+            elif cell.startswith('/'):
                 link = cell[1:]
                 cell_content = f'<{tag}><a href="{chesscom}/tournament{link}">{cell}</a>Nhấn vào đây!</{tag}>'
             else:
