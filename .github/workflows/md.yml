@@ -35,8 +35,8 @@ jobs:
           python3 md2html.py
       - name: Cam kết & Đẩy tệp
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "vietdinh856@gmail.com"
+          git config --local user.name "TVLT-Admim"
           git add -A
-          git commit -m "Cập nhật tệp .md sang tệp .html"
+          git commit -m "Cập nhật BXH từ tệp md sang tệp html"
           git push --force
