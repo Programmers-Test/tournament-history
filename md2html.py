@@ -84,10 +84,11 @@ def generate_h1_tag(filename):
     return h1_tag
 
 def markdown_table_to_html(markdown_table):
+    chesscom = f'https://www.chess.com'
     rows = markdown_table.strip().split('\n')
     html_table = '<table class="styled-table">\n'
     for i, row in enumerate(rows):
-        if '---|---|---' in row:
+        if '---|---|---|---|---|---|---|---' in row:
             continue
 
         tag = 'th' if i == 0 else 'td'
@@ -100,7 +101,10 @@ def markdown_table_to_html(markdown_table):
         for cell in cells:
             if cell.startswith('@'):
                 username = cell[1:]
-                cell_content = f'<{tag}><a href="https://www.chess.com/member/{username}">{cell}</a></{tag}>'
+                cell_content = f'<{tag}><a href="{chesscom}/member/{username}">{cell}</a></{tag}>'
+            elif cell.startswith('/')
+                link = cell[1:]
+                cell_content = f'<{tag}><a href="{chesscom}/tournament{link}">{cell}</a>Nhấn vào đây!</{tag}>'
             else:
                 cell_content = f'<{tag}>{cell}</{tag}>'
             html_table += f'    {cell_content}\n'

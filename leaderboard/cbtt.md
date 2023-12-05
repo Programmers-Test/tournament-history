@@ -1,5 +1,4 @@
-Lần|Giải nhất 🥇|Giải nhì 🥈|Giải ba🥉|Thành tích khác🏅/Ghi chú
----|---|---|---|---
-#1|@MaCUONG123 (11/11 & 68T)|@PresidentExpress28 (8,5/11 & 63.5T)|@meowf1 (8,5/11 & 62,5T)|
-#2|?|?
-#3|?|?
+Tên giải|Ngày tổ chức🕗|Thể lệ♟️|Giải nhất 🥇|Giải nhì 🥈|Giải ba🥉|Tổng số kì thủ|Link giải
+---|---|---|---|---|---|---|---
+Cờ Bí Thí Tốt - Tháng 11/2023||@MaCUONG123|@PresidentExpress28|@meowf1|81|/live/c-b-th-tt---thng-112023-4388644
+?|?|?|?|?|?|?|?
