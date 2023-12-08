@@ -6,7 +6,7 @@ Lần|Ngày tổ chức🕗|Thể lệ♟️|Giải nhất 🥇|Giải nhì 🥈
 #4|28/01/2023|10+5 FEN, Arena 2h|@DH1410|@luagagiaidau|@lttquoc|48|/arena/gii-ph---c-fen-ln-4-2415207
 #5|04/02/2023|10+5 FEN, Arena 2h|@Dvg22|@vgt187|@Tony2442|94|/arena/gii-ph---c-fen--ln-5-2457599
 #6|11/02/2023|10+5 FEN, Arena 2h|@Dragon-Chess12|@luagagiaidau|@DH1410|47|/arena/gii-ph--c-fen--ln-6-2500438
-#7|18/02/2023|¼+1 Bullet, Swiss 3 vòng|$SkUiCeVmAl|$studychess2009|$Chesslivestream2013|05|\swiss/bfLmd9FU
+#7|18/02/2023|¼+1 Bullet, Swiss 3 vòng|$SkUiCeVmAl|$studychess2009|$Chesslivestream2013|05|%swiss/bfLmd9FU
 #8|25/02/2023|⅙+1 Bullet, Arena 2h|@danghuutin|@M-DinhHoangViet|@duongnm2407|71|/arena/gii-ph--c-bullet--ln-8-2514918
 #9|04/03/2023|5+2 FEN, Arena 2h|@nguoibian1234|@Walkerxvn|@adolfnguyen2008|92|/arena/gii-ph--c-fen--ln-8-2537060
 #10|12/03/2023|3+2 Chess960, Arena 2h|@WuanBipp|@M-DinhHoangViet|@TranBaoAnh|58|/arena/gii-ph-chess960-tp-luyn--ln-10-2570938

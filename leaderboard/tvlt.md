@@ -20,7 +20,7 @@ Lần 17|19/03/2023|3+1 Bughouse, Swiss 11 vòng|294|@tdung2010|@ShinichiKhoa|M-
 Lần 18|26/03/2023|3+1 Blitz, Swiss 11 vòng|348|@Nghi-21012012|@Vchhabinhan1234|@TuanKiet2k8 ?|/th-vua-ly-tt-ln-th-18--tungjohn-playing-chess-3921659
 Lần 19|02/04/2023|3+1 Blitz, Swiss 11 vòng|364|@me3nGL3 ?|@Mehechanic|@nngmei ?|/th-vua-ly-tt-ln-th-19--tungjohn-playing-chess-3935076
 Lần 20|09/04/2023|3+1 Blitz, Swiss 11 vòng|421|@Nghi-21012012|@DucNguyen78|@MetropolitanCheckers|/siu-gii-th-vua-ly-tt-ln-th-20-3960496
-Lần 21|16/04/2023|3+1 Blitz, Swiss 11 vòng|417|@MetropolitanCheckers|@TranVanManh20061|@M-DinhHoangViet|siu-gii-th-vua-ly-tt-ln-th-21--tungjohn-playing-chess-3974487
+Lần 21|16/04/2023|3+1 Blitz, Swiss 11 vòng|417|@MetropolitanCheckers|@TranVanManh20061|@M-DinhHoangViet|/siu-gii-th-vua-ly-tt-ln-th-21--tungjohn-playing-chess-3974487
 Lần 22|30/04/2023|3+1 Chess960, Swiss 10 vòng|60|@QuynhQT|@Nam_no_pro|@M-DinhHoangViet|/siu-gii-th-vua-ly-tt-ln-th-22---k-nim-48-nm-gii-phng-min-nam-thng-nht-t-nc--3989646
 Lần 23|14/05/2023|3+1 Blitz, Swiss 10 vòng|98|@thanhan12345|@QuynhQT|@Dragon-Chess12|/siu-gii-th-vua-ly-tt-ln-th-23-4018289
 Lần 24|21/05/2023|3+1 Blitz, Swiss 10 vòng|83|@me3nGL3 ?|@voduy2074|@Lams2010|/siu-gii-th-vua-ly-tt-ln-th-24-4033341

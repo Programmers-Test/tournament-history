@@ -15,13 +15,13 @@ css_styles = """
 		background-color: #f0A51;
 	}
   </style>
-  <title> Bảng xếp hạng giải đấu </title>
+  <title>Bảng xếp hạng giải đấu</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script async src="https://stats.chessnibble.com/script.js" data-website-id="8205b599-208b-4d50-be05-5a4bb2f3775d"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <link rel="icon" href="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/tournaments-leaderboard/master/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/Thi-Vua-Lay-Tot.github.io/main/images/favicon.ico" type="image/x-icon" />
   <header>
             <nav>
                 <a href="https://thi-vua-lay-tot.github.io/tournaments-leaderboard/">< Quay lại</a>
