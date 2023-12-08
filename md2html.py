@@ -85,6 +85,7 @@ def generate_h1_tag(filename):
 
 def markdown_table_to_html(markdown_table):
     chesscom = f'https://www.chess.com'
+    lichess = f'https://lichess.org'
     rows = markdown_table.strip().split('\n')
     html_table = '<table class="styled-table">\n'
     for i, row in enumerate(rows):
@@ -102,7 +103,13 @@ def markdown_table_to_html(markdown_table):
             if cell.startswith('@'):
                 username = cell[1:]
                 cell_content = f'<{tag}><a href="{chesscom}/member/{username}">{cell}</a></{tag}>'
+            elif cell.startswith('$'):
+                username = cell[1:]
+                cell_content = f'<{tag}><a href="{lichess}/@/{username}">{cell}</a></{tag}>'
             elif cell.startswith('/'):
+                link = cell[1:]
+                cell_content = f'<{tag}><a href="{lichess}/tournament\{link}">Nhấn vào đây!</a></{tag}>'
+            elif cell.startswith('\'):
                 link = cell[1:]
                 cell_content = f'<{tag}><a href="{chesscom}/tournament/live/{link}">Nhấn vào đây!</a></{tag}>'
             else:
