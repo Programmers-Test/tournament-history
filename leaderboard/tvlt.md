@@ -5,17 +5,17 @@ Lần 2|22/10/2022|5+0 Blitz, Arena 2h|1351|@playerkhoa|@phongdeptraiqua|@PhanPh
 Lần 3|06/11/2022|10+0 Rapid, Arena 2h|535|@Littlegirl2006|@Mehechanic|@Wibu2k1|/arena/th-vua-ly-tt-ln-th-3-2218000
 Lần 4|20/11/2022|3+2 Blitz, Swiss 15 vòng|459|@thangthukquantrong|@phantom00308|@PhuongLmao|/th-vua-ly-tt-ln-4---ngy-nh-gio-vit-nam-2011-3535839
 Lần 5|27/11/2022|5+0 Chess960, Swiss 12 vòng|485|@GMTranHung|@vvhung|@PoniMikenco|/th-vua-ly-tt-ln-5-3548920
-Lần 6|04/12/2022|5+2 Blitz, Arena 2h|662|$maynho-04|$DTHtiendung2010|$danieltony3555|https://lichess.org/tournament/2E6v5uld
+Lần 6|04/12/2022|5+2 Blitz, Arena 2h|662|$maynho-04|$DTHtiendung2010|$danieltony3555|\tournament/2E6v5uld
 Lần 7|11/12/2022|3+0 3Check, Swiss 15 vòng|411|@Samurice_vn|@ShinichiKhoa|@vuquangminhtv|/th-vua-ly-tt-ln-7--3584492
 Lần 8|18/12/2022|3+1 Blitz, Swiss 12 vòng|368|@nguyentruong2311|@SparkleDreamer ?|@Cr10-goal|/th-vua-ly-tt-ln-th-8-3618872
-Lần 9|25/12/2022|3+1 Blitz, Swiss 12 vòng|457|$zendatran|$CTHNannhhuycv2010|$chess-super|https://lichess.org/swiss/9qFzoWXU
+Lần 9|25/12/2022|3+1 Blitz, Swiss 12 vòng|457|$zendatran|$CTHNannhhuycv2010|$chess-super|\swiss/9qFzoWXU
 Lần 10|08/01/2023|3+1 Blitz, Swiss 12 vòng|452|@the_evil_cats|@Cr10-goal|@GMZQUEst|/siu-gii-th-vua-ly-tt-ln-th-10-3688038
-Lần 11|15/01/2023|3+1 Crazyhouse, Arena 2h|378|$Redofblue|$M_DinhHoangViet|$HCMThanhLong2k8|https://lichess.org/tournament/0PagYmhJ
+Lần 11|15/01/2023|3+1 Crazyhouse, Arena 2h|378|$Redofblue|$M_DinhHoangViet|$HCMThanhLong2k8|\tournament/0PagYmhJ
 Lần 12|29/01/2023|3+1 Blitz, Swiss 12 vòng|437|@vgt187|@NgAnhHuy2010|@M-DinhHoangViet|/cn-mng-l-cn-tt---siu-gii-th-vua-ly-tt-ln-th-12--tungjohn-playing-chess-3719886
 Lần 13|12/02/2023|3+1 FEN, Swiss 12 vòng|406|@nhattandl185|@ghetchutungjohn ?|@phuonganximi|/th-vua-ly-tt-ln-th-13--trng--en--tungjohn-playing-chess-3807224
-Lần 14|19/02/2023|3+1 Blitz, Swiss 12 vòng|403|$Con-Ga-Biet-Bay|$CTHNannhhuycv2010|$nhattan185|https://lichess.org/swiss/wDTxvfMV
+Lần 14|19/02/2023|3+1 Blitz, Swiss 12 vòng|403|$Con-Ga-Biet-Bay|$CTHNannhhuycv2010|$nhattan185|\swiss/wDTxvfMV
 Lần 15|26/02/2023|1+1 Bullet, Swiss 15 vòng|501|@nngmei|@boat2009|@nhattandl185|/th-vua-ly-tt-ln-15---chc-mng-clb-t-6000-thnh-vin--tungjohn-playing-chess-3846898
-Lần 16|12/03/2023|3+1 Chess960, Swiss 12 vòng|336|$nhattan185|$HduHabinhan2011|$pohlestoff|https://lichess.org/swiss/SuLNRcUf
+Lần 16|12/03/2023|3+1 Chess960, Swiss 12 vòng|336|$nhattan185|$HduHabinhan2011|$pohlestoff|\swiss/SuLNRcUf
 Lần 17|19/03/2023|3+1 Bughouse, Swiss 11 vòng|294|@tdung2010|@ShinichiKhoa|M-DinhHoangViet + GM_TUANKIET_KTTTL|/siu-gii-th-vua-ly-tt-ln-th-17---thng-thua-nh-ng-i-3918891
 Lần 18|26/03/2023|3+1 Blitz, Swiss 11 vòng|348|@Nghi-21012012|@Vchhabinhan1234|@TuanKiet2k8 ?|/th-vua-ly-tt-ln-th-18--tungjohn-playing-chess-3921659
 Lần 19|02/04/2023|3+1 Blitz, Swiss 11 vòng|364|@me3nGL3 ?|@Mehechanic|@nngmei ?|/th-vua-ly-tt-ln-th-19--tungjohn-playing-chess-3935076
