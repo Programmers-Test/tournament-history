@@ -4,6 +4,7 @@ on:
   push:
     branches: [ master ]
     paths:
+      - 'md2html.py'
       - 'top/bestPlayers.md'
       - 'top/tvlt.md'
       - 'top/dttv.md'
