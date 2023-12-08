@@ -66,6 +66,10 @@ css_styles = """
 </head>
 """
 
+
+information = """
+  <p><strong>Ghi chú:</strong> Nếu có dấu *?* nghĩa là người chơi này có khả năng không được đạt giải. Nếu có dấu *$* nghĩa là trên lichess.org và dấu *@* tức là trên Chess.com.    </p>
+"""
 footer_styles = """
 <footer>
   <p>
@@ -80,7 +84,8 @@ footer_styles = """
 def generate_h1_tag(filename):
     title = os.path.splitext(filename)[0].capitalize()
     utc_datetime = datetime.datetime.utcnow()
-    h1_tag = f'<h1 align="center">Bảng xếp hạng {title}</h1><p> Lần cuối cập nhật: {utc_datetime.hour}:{utc_datetime.minute}:{utc_datetime.second} UTC, ngày {utc_datetime.day} tháng {utc_datetime.month} năm {utc_datetime.year}</p>'
+    h1_tag = f"""<h1 align="center">Bảng xếp hạng {title}<p>
+        <i>Lần cuối cập nhật: {utc_datetime.hour}:{utc_datetime.minute}:{utc_datetime.second} UTC, ngày {utc_datetime.day} tháng {utc_datetime.month} năm {utc_datetime.year}</i></p></h1>"""
     return h1_tag
 
 def markdown_table_to_html(markdown_table):
