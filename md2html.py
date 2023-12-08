@@ -66,10 +66,10 @@ css_styles = """
 </head>
 """
 
-
 information = """
-  <p><strong>Ghi chú:</strong> Nếu có dấu *?* nghĩa là người chơi này có khả năng không được đạt giải. Nếu có dấu *$* nghĩa là trên lichess.org và dấu *@* tức là trên Chess.com.    </p>
+  <p><strong>Ghi chú:</strong> Nếu có dấu *?* nghĩa là người chơi này có khả năng không được đạt giải. Nếu có dấu *$* nghĩa là trên lichess.org và dấu *@* tức là trên Chess.com.</p>
 """
+
 footer_styles = """
 <footer>
   <p>
@@ -135,7 +135,7 @@ for directory in directories:
                 markdown_table = md_file.read()
                 html_table = markdown_table_to_html(markdown_table)
 
-                styled_html_table = css_styles + h1_tag + html_table + footer_styles
+                styled_html_table = css_styles + h1_tag + information + html_table + footer_styles
 
                 html_filename = os.path.splitext(filename)[0] + '.html'
                 with open(os.path.join(directory, html_filename), 'w') as html_file:
