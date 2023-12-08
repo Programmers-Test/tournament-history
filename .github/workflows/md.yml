@@ -2,6 +2,7 @@ name: Cập nhật tệp .md sang tệp .html
 
 on:
   push:
+    branches: [ main ]
     paths:
       - 'top/bestPlayers.md'
       - 'top/tvlt.md'
