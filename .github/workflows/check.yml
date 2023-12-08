@@ -12,16 +12,7 @@ on:
       - 'leaderboard/dttv.html'
       - 'index.html'
   pull_request:
-    paths:
-      - 'index.html'
-      - 'top/bestPlayers.html'
-      - 'top/tvlt.html'
-      - 'top/dttv.html'
-      - 'top/cbtt.thml'
-      - 'leaderboard/cbtt.html'
-      - 'leaderboard/tvlt.html'
-      - 'leaderboard/dttv.html'
-  
+
 
 jobs:
   # Single deploy job since we're just deploying
