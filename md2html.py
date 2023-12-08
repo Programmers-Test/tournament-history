@@ -29,7 +29,7 @@ css_styles = """
         </header>
   <style>
     .styled-table {
-      font-family: "Raleway", sans-serif;
+      font-family: HelveBold;
       border-collapse: collapse;
       width: 100%;
       border: 1px solid #ddd;
