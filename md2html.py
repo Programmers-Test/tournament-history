@@ -46,11 +46,6 @@ css_styles = """
     body {
       margin-bottom: 70px;
     }
-    .github-logo {
-      width: 1.5em;
-      height: auto;
-      vertical-align: middle;
-    }
     footer {
       font-family: "Raleway", sans-serif;
       background-color: #04FFf0;
