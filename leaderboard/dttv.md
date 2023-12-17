@@ -37,3 +37,4 @@ Lần|Ngày tổ chức🕗|Thể lệ♟️|Giải nhất 🥇|Giải nhì 🥈
 #35|25/11/2023|5+5 KOTH, Arena 2h|@Anvanvuong1234|@TokudaShigeoJr|@nguyendat2005|59|/arena/c-trung-tm--u-trng-th-vua-ln-35-3056138
 #36|26/11/2023|1+1 Crazyhouse, Arena 2h|@M_SunnyO_O|@xuanvinhvioeduvn|@knightnight97|58|/arena/c-cm-qun--u-trng-th-vua-ln-36-3056575
 #37|03/12/2023|1+1 Chess960, Arena 2h|@Inthetake|@TokudaShigeoJr|@nguyentanphat369|48|/arena/c-ngu-nhin--u-trng-th-vua-ln-37-3069170
+#38|16/12/2023|15+1 Rapid, Arena 2h|@Vqvinh2002|@Henry080812|@haikhoa1102|60|/arena/c-tiu-chun--u-trng-th-vua-ln-38-3069603
