@@ -106,7 +106,7 @@ def markdown_table_to_html(markdown_table):
         html_table += '  <tr>\n'
         for cell in cells:
             if cell.startswith('@'):
-                username = cell[1:]
+                username = cell[0:]
                 cell_content = f'<{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}">{cell}</a></{tag}>'
             elif cell.startswith('$'):
                 username = cell[1:]
