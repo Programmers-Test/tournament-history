@@ -105,12 +105,12 @@ def markdown_table_to_html(markdown_table):
         
         html_table += '  <tr>\n'
         for cell in cells:
+            if cell.endswith('?'):
+                username = cell[1:]
+                cell_content = f'<{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}">{username}</a>❓</{tag}>'
             if cell.startswith('@'):
                 username = cell[1:]
                 cell_content = f'<{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}">{username}</a></{tag}>'
-            elif cell.startswith('@') and cell.endswith('?'):
-                username = cell[1:]
-                cell_content = f'<{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}">{username}</a>❓</{tag}>'
             elif cell.startswith('$'):
                 username = cell[1:]
                 cell_content = f'<{tag}><a href="{lichess}/@/{username}" title="Xem tài khoản Lichess của {username}">{username}</a></{tag}>'
@@ -120,6 +120,9 @@ def markdown_table_to_html(markdown_table):
             elif cell.startswith('/'):
                 link = cell[1:]
                 cell_content = f'<{tag}><a href="{chesscom}/tournament/live/{link}">Nhấn vào đây!</a></{tag}>'
+            elif cell.endswith('*'):
+                name = cell[:1]
+                cell_content = f'<{tag}>{name} <img src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png"></{tag}>'
             else:
                 cell_content = f'<{tag}>{cell}</{tag}>'
             html_table += f'    {cell_content}\n'
