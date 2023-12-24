@@ -25,7 +25,7 @@ Lần 22|30/04/2023|3+1 Chess960, Swiss 10 vòng|60|@QuynhQT|@Nam_no_pro|@M-Dinh
 Lần 23|14/05/2023|3+1 Blitz, Swiss 10 vòng|98|@kstan07_252|@QuynhQT|@Dragon-Chess12|/siu-gii-th-vua-ly-tt-ln-th-23-4018289
 Lần 24|21/05/2023|3+1 Blitz, Swiss 10 vòng|83|@me3nGL3 ?|@voduy2074|@Lams2010|/siu-gii-th-vua-ly-tt-ln-th-24-4033341
 Tháng 6/2023|04/06/2023|3+1 Blitz, Swiss 11 vòng|242|@Dragon-chess12|@Lams2010|@RicacdoMilos|/th-vua-ly-tt-cho-h-thng-6---nm-2023-4059788
-Lần 25|18/06/2023|3+1 3Check, Swiss 10 vòng|53|@ghetchutungjohn ?|@vinhnguyen2008|@King_of_Chess_0312|/siu-gii-th-vua-ly-tt-ln-th-25---bin-th-ba-ln-chiu-tng-4075955
+Lần 25 *|18/06/2023|3+1 3Check, Swiss 10 vòng|53|@ghetchutungjohn ?|@vinhnguyen2008|@King_of_Chess_0312|/siu-gii-th-vua-ly-tt-ln-th-25---bin-th-ba-ln-chiu-tng-4075955
 Tháng 7/2023|02/07/2023|3+1 Chess960, Swiss 11 vòng|118|@nghi-21012012|@RicacdoMilos|@QuynhQT|/th-vua-ly-tt-thng-7-nm-2023-4111726
 Tháng 8/2023|06/08/2023|3+1 Blitz, Swiss 11 vòng|299|@Nguyen_Si_Trong_Duc|@NgAnhHuy2010|@ghetchutungjohn|/th-vua-ly-tt-thng-8-nm-2023-4199460
 Tháng 9/2023|03/09/2023|3+1 Blitz, Swiss 11 vòng|399|@HaiNam1405|@chorachricon|@Vchhabinhan1234|/th-vua-ly-tt-thng-9-nm-2023-4253176
