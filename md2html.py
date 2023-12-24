@@ -62,7 +62,7 @@ css_styles = """
 """
 
 information = """
-  <p><strong>Ghi chú:</strong> Nếu có dấu *?* nghĩa là người chơi này có khả năng không được đạt giải. Nếu có dấu *$* nghĩa là trên lichess.org và dấu *@* tức là trên Chess.com.</p>
+  <p><strong>Ghi chú:</strong> Nếu có dấu *?* nghĩa là người chơi này có khả năng không được đạt giải. Nếu <img src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" nghĩa là giải chính thức được tổ chức bởi Mr.TungJohn, còn lại là của <a href="https://www.chess.com/member/tungmanhgiang020709">Giang Mạnh Tùng</a></p>
 """
 
 footer_styles = """
@@ -106,7 +106,7 @@ def markdown_table_to_html(markdown_table):
         html_table += '  <tr>\n'
         for cell in cells:
             if cell.startswith('?'):
-                username = cell[3:]
+                username = cell[2:]
                 cell_content = f'<{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}">{username}</a>❓</{tag}>'
             if cell.startswith('@'):
                 username = cell[1:]
@@ -121,7 +121,7 @@ def markdown_table_to_html(markdown_table):
                 link = cell[1:]
                 cell_content = f'<{tag}><a href="{chesscom}/tournament/live/{link}">Nhấn vào đây!</a></{tag}>'
             elif cell.startswith('*'):
-                name = cell[3:]
+                name = cell[2:]
                 cell_content = f'<{tag}>{name}<img src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" title="Giải chính thức"></{tag}>'
             else:
                 cell_content = f'<{tag}>{cell}</{tag}>'
