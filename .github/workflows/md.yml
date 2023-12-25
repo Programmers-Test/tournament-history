@@ -5,13 +5,8 @@ on:
     branches: [ master ]
     paths:
       - 'md2html.py'
-      - 'top/bestPlayers.md'
-      - 'top/tvlt.md'
-      - 'top/dttv.md'
-      - 'top/cbtt.md'
-      - 'leaderboard/cbtt.md'
-      - 'leaderboard/tvlt.md'
-      - 'leaderboard/dttv.md'
+      - 'top/*.md'
+      - 'leaderboard/*.md'
 
 env:
   TOKEN: ${{ secrets.TOKEN }}
