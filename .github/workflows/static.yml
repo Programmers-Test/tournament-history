@@ -6,7 +6,7 @@ on:
   push:
     branches: ["master"]
     paths-ignore:
-      - '*.html'
+      - '**.html'
       - 'top/*.html'
       - 'leaderboard/*.html'
 
