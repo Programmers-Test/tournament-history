@@ -107,8 +107,8 @@ def markdown_table_to_html(markdown_table):
         for cell in cells:
             if cell.startswith('?'):
                 username = cell[2:]
-                cell_content = f'<{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}">{username}</a>❓</{tag}>'
-            if cell.startswith('@'):
+                cell_content = f'<{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}">{username}</a>?❓</{tag}>'
+            elif cell.startswith('@'):
                 username = cell[1:]
                 cell_content = f'<{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}">{username}</a></{tag}>'
             elif cell.startswith('$'):
@@ -116,10 +116,10 @@ def markdown_table_to_html(markdown_table):
                 cell_content = f'<{tag}><a href="{lichess}/@/{username}" title="Xem tài khoản Lichess của {username}">{username}</a></{tag}>'
             elif cell.startswith('%'):
                 link = cell[1:]
-                cell_content = f'<{tag}><a href="{lichess}/{link}">Nhấn vào đây!</a></{tag}>'
+                cell_content = f'<{tag}><a href="{lichess}/{link}" title="Nhấn để xem kết quả của giải này">Link!</a></{tag}>'
             elif cell.startswith('/'):
-                link = cell[1:]
-                cell_content = f'<{tag}><a href="{chesscom}/tournament/live/{link}">Nhấn vào đây!</a></{tag}>'
+                idlink = cell[1:]
+                cell_content = f'<{tag}><a href="{chesscom}/play/{idlink}" title="Nhấn để xem kết quả của giải này">Link!</a></{tag}>'
             elif cell.startswith('*'):
                 name = cell[2:]
                 cell_content = f'<{tag}>{name}<img src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" title="Giải chính thức"></{tag}>'
