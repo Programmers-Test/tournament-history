@@ -4,7 +4,7 @@ Hạng|Kỳ thủ|Các lần đạt giải
 #2|@nhattandl185|🥇(TVLT 13),🥉(TVLT 14),🥉(TVLT 15),🥇(TVLT 16)
 #3|@Nghi-21012012|🥇(TVLT 18),🥇(TVLT 20),🥇(TVLT tháng 7/2023)
 #4|@QuynhQT|🥇(TVLT 22),🥈(TVLT 23),🥉(TVLT tháng 7/2023)
-#4|? ghetchutungjohn|🥈(TVLT 13),🥇(TVLT 25),🥉(TVLT Tháng 8/2023)
+#4|? PresidentExpress28|🥈(TVLT 13),🥇(TVLT 25),🥉(TVLT Tháng 8/2023)
 #5|@Vchhabinhan1234|🥈(TVLT 16),🥈(TVLT 18),🥉(TVLT Tháng 10/2023)
 #6|@me3nGL3|🥇(TVLT 19),🥇(TVLT 24)
 #6|@Krinit_6174|🥇(TVLT 23),🥇(TVLT Tháng 12/2023)
