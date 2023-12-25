@@ -1,11 +1,11 @@
 Lần|Ngày tổ chức🕗|Thể lệ♟️|Giải nhất 🥇|Giải nhì 🥈|Giải ba🥉|Tổng số kì thủ|Link giải
 ---|---|---|---|---|---|---|---
 #1|17/12/2022|10+0 3Check, Swiss 5 vòng|@Ez-haha|@longgr29|@darknam119|101|/tournament/3629394
-#2|24/12/2022|5+0 Crazyhouse, Arena 2h|@M-DinhHoangViet|@baonguyen007|@datnguyensy|106|/arena/gii-ph-random---crazyhouse--ln-2-2353520
+#2|24/12/2022|5+0 Crazyhouse, Arena 2h|@M-DinhHoangViet|@baonguyen007|@datnguyensy|106|/arena/2353520
 #3|19/01/2023|10+5 FEN, Arena 2h|@trihau0108|@M-DinhHoangViet|@newtoplaychess1234|98|arena/2391595
 #4|28/01/2023|10+5 FEN, Arena 2h|@DH1410|@luagagiaidau|@lttquoc|48|/arena/2415207
-#5|04/02/2023|10+5 FEN, Arena 2h|@Dvg22|@vgt187|@Tony2442|94|/arena/gii-ph---c-fen--ln-5-2457599
-#6|11/02/2023|10+5 FEN, Arena 2h|@Dragon-Chess12|@luagagiaidau|@DH1410|47|/arena/gii-ph--c-fen--ln-6-2500438
+#5|04/02/2023|10+5 FEN, Arena 2h|@Dvg22|@vgt187|@Tony2442|94|/arena/2457599
+#6|11/02/2023|10+5 FEN, Arena 2h|@Dragon-Chess12|@luagagiaidau|@DH1410|47|/arena/2500438
 #7|18/02/2023|¼+1 Bullet, Swiss 3 vòng|$SkUiCeVmAl|$studychess2009|$Chesslivestream2013|05|%swiss/bfLmd9FU
 #8|25/02/2023|⅙+1 Bullet, Arena 2h|@danghuutin|@M-DinhHoangViet|@duongnm2407|71|/arena/2514918
 #9|04/03/2023|5+2 FEN, Arena 2h|@nguoibian1234|@Walkerxvn|@adolfnguyen2008|92|/arena/2537060
@@ -27,10 +27,10 @@ Lần|Ngày tổ chức🕗|Thể lệ♟️|Giải nhất 🥇|Giải nhì 🥈
 #25|09/09/2023|10+0 FEN, Arena 4h|@Namsomot|@TokudaShigeoJr|@doandinhlam22|83|/arena/2916621
 #26|10/09/2023|10+5 FEN, Arena 2h|@TokudaShigeoJr|@ThanhBinhHaNam|@MinhBlack2808|60|/arena/2917392
 #27|23/09/2023|5+5 FEN, Swiss 9 vòng|@greenjelly2k|@gravityrarl123|@khumcanbit|42|/tournament/4304276
-#28|24/09/2023|5+5 FEN, Swiss 10 vòng|@khumcanbit|@ToanDucBui|@TRUONGHIEUNGHIA247|34|tournament/4304504
+#28|24/09/2023|5+5 FEN, Swiss 10 vòng|@khumcanbit|@ToanDucBui|@TRUONGHIEUNGHIA247|34|/tournament/4304504
 #29|29/09/2023|5+5 FEN, Swiss 5 vòng|@TokudaShigeoJr|@MinhBlack2808|@songokudragonball2012|17|/tournament/4304515
-#30|07/10/2023|10+5 FEN, Arena 2h|@ChessLegend-PKT|@khongten00|@tungjohn1999|40|/arena/c-sng-to--u-trng-th-vua-ln-30-2968427
-#31|21/10/2023|7+3 Bughouse, Arena 2h|@Anh_loc|@rimuru9102|@Huongkhiet|91|/arena/c-vua-i--u-trng-th-vua-ln-31-2993092
+#30|07/10/2023|10+5 FEN, Arena 2h|@ChessLegend-PKT|@khongten00|@tungjohn1999|40|/arena/2968427
+#31|21/10/2023|7+3 Bughouse, Arena 2h|@Anh_loc|@rimuru9102|@Huongkhiet|91|/arena/2993092
 #32|04/11/2023|1+1 3Check, Swiss 7 vòng|@TokudaShigeoJr|@tuanfunboy|@TNKP2012|21|/tournament/4362342
 #33|04/11/2023|10+0 Rapid, Arena 3h|@HoGiaKhang|@nnpblood|@tungGMvp|76|/arena/3007669
 #34|18/11/2023|5+5 FEN, Arena 2h|@GMvuhoahiep1234|@Warzard1|@SternVN|61|/arena/3043653
