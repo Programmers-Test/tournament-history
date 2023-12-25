@@ -2,7 +2,7 @@ Lần|Ngày tổ chức🕗|Thể lệ♟️|Giải nhất 🥇|Giải nhì 🥈
 ---|---|---|---|---|---|---|---
 #1|17/12/2022|10+0 3Check, Swiss 5 vòng|@Ez-haha|@longgr29|@darknam119|101|/tournament/3629394
 #2|24/12/2022|5+0 Crazyhouse, Arena 2h|@M-DinhHoangViet|@baonguyen007|@datnguyensy|106|/arena/2353520
-#3|19/01/2023|10+5 FEN, Arena 2h|@trihau0108|@M-DinhHoangViet|@newtoplaychess1234|98|arena/2391595
+#3|19/01/2023|10+5 FEN, Arena 2h|@trihau0108|@M-DinhHoangViet|@newtoplaychess1234|98|/arena/2391595
 #4|28/01/2023|10+5 FEN, Arena 2h|@DH1410|@luagagiaidau|@lttquoc|48|/arena/2415207
 #5|04/02/2023|10+5 FEN, Arena 2h|@Dvg22|@vgt187|@Tony2442|94|/arena/2457599
 #6|11/02/2023|10+5 FEN, Arena 2h|@Dragon-Chess12|@luagagiaidau|@DH1410|47|/arena/2500438
