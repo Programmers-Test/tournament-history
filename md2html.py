@@ -67,7 +67,7 @@ css_styles = """
 """
 
 information = """
-  <p><strong>Ghi chú:</strong> Nếu có dấu *?* nghĩa là người chơi này có khả năng không được đạt giải và đang chờ xác thực. Nếu <img class="verified" src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" alt="Chính thức"> nghĩa là giải chính thức được tổ chức bởi <a href="https://www.chess.com/member/tungjohn2005">Mr.TungJohn</a>, còn lại là của <a href="https://www.chess.com/member/tungmanhgiang020709">Giang Mạnh Tùng</a></p>
+  <p><strong>Ghi chú:</strong> Nếu có ❓ nghĩa là người chơi này có khả năng không được đạt giải và đang chờ xác thực. Nếu <img class="verified" src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" alt="Chính thức"> nghĩa là giải chính thức được tổ chức bởi <a href="https://www.chess.com/member/tungjohn2005">Mr.TungJohn</a>, còn lại là của <a href="https://www.chess.com/member/tungmanhgiang020709">Giang Mạnh Tùng</a></p>
 """
 
 footer_styles = """
