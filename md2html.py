@@ -62,7 +62,7 @@ css_styles = """
 """
 
 information = """
-  <p><strong>Ghi chú:</strong> Nếu có dấu *?* nghĩa là người chơi này có khả năng không được đạt giải. Nếu <img src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" nghĩa là giải chính thức được tổ chức bởi Mr.TungJohn, còn lại là của <a href="https://www.chess.com/member/tungmanhgiang020709">Giang Mạnh Tùng</a></p>
+  <p><strong>Ghi chú:</strong> Nếu có dấu *?* nghĩa là người chơi này có khả năng không được đạt giải. Nếu <img src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png"> nghĩa là giải chính thức được tổ chức bởi Mr.TungJohn, còn lại là của <a href="https://www.chess.com/member/tungmanhgiang020709">Giang Mạnh Tùng</a></p>
 """
 
 footer_styles = """
