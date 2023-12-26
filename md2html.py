@@ -67,7 +67,7 @@ css_styles = """
 """
 
 information = """
-  <p><strong>Ghi chú:</strong> Nếu có dấu *?* nghĩa là người chơi này có khả năng không được đạt giải. Nếu <img class="verified" src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" alt="Chính thức"> nghĩa là giải chính thức được tổ chức bởi Mr.TungJohn, còn lại là của <a href="https://www.chess.com/member/tungmanhgiang020709">Giang Mạnh Tùng</a></p>
+  <p><strong>Ghi chú:</strong> Nếu có dấu *?* nghĩa là người chơi này có khả năng không được đạt giải và đang chờ xác thực. Nếu <img class="verified" src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" alt="Chính thức"> nghĩa là giải chính thức được tổ chức bởi <a href="https://www.chess.com/member/tungjohn2005">Mr.TungJohn</a>, còn lại là của <a href="https://www.chess.com/member/tungmanhgiang020709">Giang Mạnh Tùng</a></p>
 """
 
 footer_styles = """
@@ -85,6 +85,9 @@ footer_styles = """
       <a href="https://discord.gg/7vYq2gRCrv"><img src="https://dcbadge.vercel.app/api/server/7vYq2gRCrv?style=flat" target="_blank"> </a>
   </p>
   <p><i>Được cập nhật thường xuyên bởi <a href="https://www.chess.com/clubs/members/thi-vua-lay-tot-tungjohn-playing-chess?filterBy=isAdmin">Các QTV CLB Thí Vua Lấy Tốt</a></i>.</p>
+    </div>
+  </div>
+</div>
 </footer>
 """
 
@@ -92,7 +95,7 @@ def generate_h1_tag(filename):
     title = os.path.splitext(filename)[0].capitalize()
     utc_datetime = datetime.datetime.utcnow()
     h1_tag = f"""<h1 align="center">Bảng xếp hạng {title}</h1>
-      <p><i>Lần cuối cập nhật: {utc_datetime.hour}:{utc_datetime.minute}:{utc_datetime.second} UTC, ngày {utc_datetime.day} tháng {utc_datetime.month} năm {utc_datetime.year}</i></p>"""
+      <p align="right"><i>Lần cuối cập nhật: {utc_datetime.hour}:{utc_datetime.minute}:{utc_datetime.second} UTC, ngày {utc_datetime.day} tháng {utc_datetime.month} năm {utc_datetime.year}</i></p>"""
     return h1_tag
 
 def markdown_table_to_html(markdown_table):
