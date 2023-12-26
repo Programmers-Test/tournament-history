@@ -46,9 +46,13 @@ css_styles = """
     body {
       margin-bottom: 70px;
     }
+    .verified {
+      width: 1.5em;
+      height: auto;
+      vertical-align: middle;
+    }
     footer {
       font-family: "Raleway", sans-serif;
-      background-color: #04FFf0;
       padding: 5px;
       margin-left: auto;
       margin-top: auto;
@@ -62,7 +66,7 @@ css_styles = """
 """
 
 information = """
-  <p><strong>Ghi chú:</strong> Nếu có dấu *?* nghĩa là người chơi này có khả năng không được đạt giải. Nếu <img src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png"> nghĩa là giải chính thức được tổ chức bởi Mr.TungJohn, còn lại là của <a href="https://www.chess.com/member/tungmanhgiang020709">Giang Mạnh Tùng</a></p>
+  <p><strong>Ghi chú:</strong> Nếu có dấu *?* nghĩa là người chơi này có khả năng không được đạt giải. Nếu <img class="verified" src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" alt="Chính thức"> nghĩa là giải chính thức được tổ chức bởi Mr.TungJohn, còn lại là của <a href="https://www.chess.com/member/tungmanhgiang020709">Giang Mạnh Tùng</a></p>
 """
 
 footer_styles = """
@@ -122,7 +126,7 @@ def markdown_table_to_html(markdown_table):
                 cell_content = f'<{tag}><a href="{chesscom}/play/{idlink}" title="Nhấn để xem kết quả của giải này">Link!</a></{tag}>'
             elif cell.startswith('*'):
                 name = cell[2:]
-                cell_content = f'<{tag}>{name}<img src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" title="Giải chính thức"></{tag}>'
+                cell_content = f'<{tag}>{name}<img class="verified" src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" title="Giải chính thức"></{tag}>'
             else:
                 cell_content = f'<{tag}>{cell}</{tag}>'
             html_table += f'    {cell_content}\n'
