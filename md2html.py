@@ -53,7 +53,7 @@ css_styles = """
     }
     footer {
       font-family: "Raleway", sans-serif;
-      padding: 5px;
+      padding: 3px;
       margin-left: auto;
       margin-top: auto;
       position: fixed;
