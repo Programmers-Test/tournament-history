@@ -52,6 +52,11 @@ css_styles = """
       height: auto;
       vertical-align: middle;
     }
+    .unverified {
+      width: 1.5em;
+      height: auto;
+      vertical-align: middle;
+    }
     footer {
       font-family: "Raleway", sans-serif;
       padding: 3px;
@@ -67,7 +72,8 @@ css_styles = """
 """
 
 information = """
-  <p><strong>Ghi chú:</strong> Nếu có ❓ nghĩa là người chơi này có khả năng không được đạt giải và đang chờ xác thực. Nếu <img class="verified" src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" alt="Chính thức"> nghĩa là giải chính thức được tổ chức bởi <a href="https://www.chess.com/member/tungjohn2005">Mr.TungJohn</a>, còn lại là của <a href="https://www.chess.com/member/tungmanhgiang020709">Giang Mạnh Tùng</a></p>
+  <p><strong>Ghi chú:</strong> Nếu <img class="verified" src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" alt="Chính thức"> nghĩa là giải chính thức được tổ chức bởi chủ sở hữu/quản lí giải đấu, còn <img class="unverified" src="https://s3.vio.edu.vn/assets/img/wrong_icon_2.png" alt="Không chính thức">.</p>
+  <p> Nếu trước tên người dùng có: ❓ nghĩa là người chơi này có khả năng không được đạt giải và đang chờ xác thực, <img class="verified" src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png"> là người dùng bị đóng tài khoản nhưng vẫn được xác minh được nhận giải, <img class="unverified" src="https://s3.vio.edu.vn/assets/img/wrong_icon_2.png"> là người chơi bị đóng tài khoản và xác nhận là gian lận.</p>
 """
 
 footer_styles = """
@@ -133,6 +139,9 @@ def markdown_table_to_html(markdown_table):
             elif cell.startswith('*'):
                 name = cell[2:]
                 cell_content = f'<{tag}>{name}<img class="verified" src="https://s3.vio.edu.vn/assets/img/correct_icon_2.png" title="Giải chính thức"></{tag}>'
+            elif cell.startswith('`'):
+                name = cell[2:]
+                cell_content = f'<{tag}>{name}<img class="unverified" src="https://s3.vio.edu.vn/assets/img/wrong_icon_2.png" title="Giải không chính thức"></{tag}>'
             else:
                 cell_content = f'<{tag}>{cell}</{tag}>'
             html_table += f'    {cell_content}\n'
