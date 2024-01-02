@@ -22,10 +22,10 @@ Tên giải|Ngày tổ chức🕗|Thể lệ♟️|Số kì thủ|Giải nhất 
 * Lần 20|09/04/2023|3+1 Blitz, Swiss 11 vòng|421|@Nghi-21012012|@DucNguyen78|@MetropolitanCheckers|/tournament/3960496
 * Lần 21|16/04/2023|3+1 Blitz, Swiss 11 vòng|417|@MetropolitanCheckers|@TranVanManh20061|@M-DinhHoangViet|/tournament/3974487
 * Lần 22|30/04/2023|3+1 Chess960, Swiss 10 vòng|60|@QuynhQT|@Nam_no_pro|@M-DinhHoangViet|/tournament/3989646
-Lần 23|14/05/2023|3+1 Blitz, Swiss 10 vòng|98|@kstan07_252|@QuynhQT|@Dragon-Chess12|/tournament/4018289
-Lần 24|21/05/2023|3+1 Blitz, Swiss 10 vòng|83|? me3nGL3|@voduy2074|@Lams2010|/tournament/4033341
+` Lần 23|14/05/2023|3+1 Blitz, Swiss 10 vòng|98|@kstan07_252|@QuynhQT|@Dragon-Chess12|/tournament/4018289
+` Lần 24|21/05/2023|3+1 Blitz, Swiss 10 vòng|83|? me3nGL3|@voduy2074|@Lams2010|/tournament/4033341
 * Tháng 6/2023|04/06/2023|3+1 Blitz, Swiss 11 vòng|242|@Dragon-chess12|@Lams2010|@RicacdoMilos|/tournament/4059788
-Lần 25|18/06/2023|3+1 3Check, Swiss 10 vòng|53|? PresidentExpress28|@vinhnguyen2008|@King_of_Chess_0312|/tournament/4075955
+` Lần 25|18/06/2023|3+1 3Check, Swiss 10 vòng|53|? PresidentExpress28|@vinhnguyen2008|@King_of_Chess_0312|/tournament/4075955
 * Tháng 7/2023|02/07/2023|3+1 Chess960, Swiss 11 vòng|118|@nghi-21012012|@RicacdoMilos|@QuynhQT|/tournament/tournament/4111726
 * Tháng 8/2023|06/08/2023|3+1 Blitz, Swiss 11 vòng|299|@Nguyen_Si_Trong_Duc|@NgAnhHuy2010|@PresidentExpress28|/tournament/4199460
 * Tháng 9/2023|03/09/2023|3+1 Blitz, Swiss 11 vòng|399|@HaiNam1405|@chorachricon|@Vchhabinhan1234|/tournament/4253176
