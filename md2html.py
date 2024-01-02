@@ -124,7 +124,7 @@ def markdown_table_to_html(markdown_table):
             elif cell.startswith('$'):
                 username = cell[1:]
                 cell_content = f'<{tag}><a href="{lichess}/@/{username}" title="Xem tài khoản Lichess của {username}">{username}</a></{tag}>'
-            elif cell.startswith('%'):
+            elif cell.startswith('/'):
                 link = cell[1:]
                 cell_content = f'<{tag}><a href="{lichess}/{link}" title="Nhấn để xem kết quả của giải này">Link!</a></{tag}>'
             elif cell.startswith('/'):

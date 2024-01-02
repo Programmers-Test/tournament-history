@@ -32,4 +32,4 @@ Lần 25|18/06/2023|3+1 3Check, Swiss 10 vòng|53|? PresidentExpress28|@vinhnguy
 * Tháng 10/2023|08/10/2023|3+1 Blitz, Swiss 11 vòng|369|@trongvinh123|@vupham08|@chikien08|/tournament/4319009
 * Tháng 11/2023|05/11/2023|3+1 Chess960, Swiss 11 vòng|194|@Crab1234|@Wingstw|@duongnm2407|/tournament/4374307
 * Tháng 12/2023|03/12/2023|3+1 Blitz, Swiss 11 vòng|251|@Krinit_6174|@Phamtienduc1|@oliebuonngu|/tournament/4426328
-* Tết Dương Lịch 2024|01/01/2024|3+1 Blitz, Swiss 11 vòng|Top Player 1|Top Player 2|Top Player 3|Number|/tournament/4486332
+* Tết Dương Lịch 2024|01/01/2024|3+1 Blitz, Swiss 11 vòng|@Nguyen_Si_Trong_Duc|@QuynhQT|@nth_2402|398|/tournament/4486332
