@@ -30,7 +30,7 @@ def markdown_table_to_html(markdown_table):
     chesscom = f'https://www.chess.com'
     lichess = f'https://lichess.org'
     rows = markdown_table.strip().split('\n')
-    html_table = '<table class="styled-table">\n'
+    html_table = '      <table>\n'
     for i, row in enumerate(rows):
         if '---|---|---|---|---|---|---|---' in row:
             continue
