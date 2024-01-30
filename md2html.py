@@ -8,9 +8,104 @@ import subprocess
 import sys
 
 
-css_styles = """---
-layout: default
----
+css_styles = """<!DOCTYOE html>
+<html lang="vi">
+
+<head>
+    <title>Các thành viên đạt giải</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cobaohieu.github.io/assets/css/intro.css">
+    <link rel="stylesheet" href="https://thi-vua-lay-tot.github.io/tournaments-leaderboard/css/main.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="icon" href="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/Thi-Vua-Lay-Tot.github.io/main/images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <nav id="navigation" class="navigation-scroll">
+            <div class="container">
+              <div class="navbar" id="navbar-main">
+                <div class="navbar-brand">
+                    <a href="https://thi-vua-lay-tot.github.io"><img src="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/Thi-Vua-Lay-Tot.github.io/main/images/favicon.ico" title="Thí Vua Lấy Tốt"></a>
+                  </div>
+                  <ul class="navbar-nav">
+                    <li>
+                      <a href="https://thi-vua-lay-tot.github.io">Trang chủ</a>
+                    </li>
+                    <li>
+                      <a href="https://thi-vua-lay-tot.github.io/blogs">Blogs</a>
+                    </li>
+                    <li>
+                      <a href="https://thi-vua-lay-tot.github.io/vlogs">Vlogs</a>
+                    </li>
+                    <li>
+                      <a href="https://thi-vua-lay-tot.github.io/webs">Xã hội</a>
+                    </li>
+                    <li>
+                      <a href="https://thi-vua-lay-tot.github.io/game">Games</a>
+                    </li>
+                    <li>
+                      <a href="https://thi-vua-lay-tot.github.io/list">Danh sách</a>
+                    </li>
+                    <li>
+                      <a href="https://thi-vua-lay-tot.github.io/team">Mods</a>
+                    </li>
+                  </ul>
+		              <div>
+                    <label class="mode">
+                      <input type="checkbox" id="darkModeToggle">
+                        <i id="moon" class='bx bxs-moon' title="Bật/Tắt chế độ tối"></i>
+                    </label>
+		                <label>
+		                    <a id="back2top" href="#top" title="Trở lại đầu trang này"></a>
+		                </label>
+		              </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+"""
+
+footer_style = """
+    <div id="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-brand">
+                    <a href="https://thi-vua-lay-tot.github.io"><img width="88" src="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/Thi-Vua-Lay-Tot.github.io/main/images/favicon.ico" title="Thí Vua Lấy Tốt"></a>
+                </div>
+                <div class="footer-nav">
+                  <h3><a href="https://thi-vua-lay-tot.github.io">Thí Vua Lấy Tốt</a></h3>
+                    <p><a href="https://thi-vua-lay-tot.github.io/webs">Các trang mạng</a></p>
+                    <p><a href="https://thi-vua-lay-tot.github.io/blogs">Các Blog</a></p>
+                    <p><a href="https://thi-vua-lay-tot.github.io/vlogs">Các Vlog</a></p>
+                    <p><a href="https://thi-vua-lay-tot.github.io/game">Trò chơi</a></p>
+                    <p><a href="https://thi-vua-lay-tot.github.io/list">Các danh sách</a></p>
+                    <p><a href="https://thi-vua-lay-tot.github.io/team">Ban cán sự của TVLT</a></p>
+                </div>
+                <div class="footer-nav">
+                  <h3><a href="https://thi-vua-lay-tot.github.io/webs">Các trang mạng</a></h3>
+                    <a href="https://www.youtube.com/@TungJohnPlayingChess"><img src="https://img.shields.io/badge/-Youtube-EA4335?style=flat-square&logo=Youtube&logoColor=white" target="_blank"></a></li>
+                    <a href="https://clubs.chess.com/GkQy"><img width="88" src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/NathanielGreen/php0hWd9E.png" target="_blank"></a></li>
+                    <a href="https://lichess.org/team/thi-vua-lay-tot-tungjohn-playing-chess"><img src="https://img.shields.io/badge/-Lichess-050505?style=flat-square&logo=Lichess&logoColor=white" target="_blank"></a></li>
+                    <a href="https://lishogi.org/team/thi-vua-lay-tot-tungjohn-playing-shogi"><img src="https://img.shields.io/badge/-Lishogi-050505?style=flat-square&logo=Lishogi&logoColor=white" target="_blank"></a></li>
+                    <a href="https://lidraughts.org/team/thi-vua-lay-quan-tungjohn-playing-draughts"><img src="https://img.shields.io/badge/-Lidraughts-050505?style=flat-square&logo=Lidraughts&logoColor=white" target="_blank"></a></li>
+                    <a href="https://playstrategy.org/team/thi-vua-lay-tot-tungjohn-playing-chess"><img src="https://img.shields.io/badge/-PlayStrategy-050505?style=flat-square&logo=PlayStrategy&logoColor=white" target="_blank"></a></li>
+                    <a href="https://www.facebook.com/TungJohn2005"><img src="https://img.shields.io/badge/-Facebook-00B2FF?style=flat-square&logo=Facebook&logoColor=white" target="_blank"></a></li>
+                    <a href="https://discord.gg/WUhW5Cs9gB"><img src="https://dcbadge.vercel.app/api/server/WUhW5Cs9gB?style=flat" target="_blank"></a></li>
+                </div>
+                <div>
+                    <p>Web được xây dựng bởi QTV <a href="https://thi-vua-lay-tot.github.io/team">Đinh Hoàng Việt</a>.</p>
+                    <p>Mã nguồn trên <a href="https://github.com/Thi-Vua-Lay-Tot/Thi-Vua-Lay-Tot.github.io"><img class="github-logo" src="https://github.com/fluidicon.png" alt="GitHub Icon"></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://thi-vua-lay-tot.github.io/js/main.js"></script>
+</body>
+
 """
 
 information = """
