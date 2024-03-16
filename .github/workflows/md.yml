@@ -5,8 +5,9 @@ on:
     branches: [ master ]
     paths:
       - 'md2html.py'
+      - 'mdtohtml.py'
+      - 'list/*.md'
       - 'top/*.md'
-      - 'leaderboard/*.md'
 
 env:
   TOKEN: ${{ secrets.TOKEN }}
@@ -20,7 +21,7 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
       - name: Thiết lập Python '3.11'
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: Cài đặt dependencies
@@ -30,6 +31,7 @@ jobs:
       - name: Cập nhật Bảng xếp hạng
         run: |
           python3 md2html.py
+          python3 mdtohtml.py
       - name: Cam kết & Đẩy tệp
         run: |
           git config --local user.email "vietdinh856@gmail.com"

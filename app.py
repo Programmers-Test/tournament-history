@@ -22,9 +22,9 @@ def top(type_name):
         return "Loại không hợp lệ", 404
 
 @app.route('/<type_name>')
-def leaderboard(type_name):
+def list(type_name):
     if type_name in TYPES:
-        return send_file(f'leaderboard/{type_name}.html')
+        return send_file(f'list/{type_name}.html')
     else:
         return "Loại không hợp lệ", 404
 
