@@ -1,3 +1,3 @@
-orjson==3.9.2
+orjson==3.9.15
 flask==2.2.5
 gunicorn==21.2.0
