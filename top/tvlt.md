@@ -2,7 +2,7 @@ Hạng|Kỳ thủ|Các lần đạt giải
 ---|---|---
 #1|! @lecongdat1122|🥇(TVLT 4),🥇(TVLT 5),🥈(TVLT 7),🥇(TVLT 8),🥈(TVLT 14)
 #2|@Vchhabinhan1234|🥈(TVLT 16),🥈(TVLT 18),🥉(TVLT Tháng 9.2023),🥈(TVLT Tháng 3.2024)
-#3|@Nghi-21012012|🥇(TVLT 18),🥇(TVLT 20),🥇(TVLT Tháng 7.2023)
+#3|@Spaghetticf|🥇(TVLT 18),🥇(TVLT 20),🥇(TVLT Tháng 7.2023)
 #4|@nhattandl185|🥇(TVLT 13),🥉(TVLT 15),🥇(TVLT 16)
 #5|? @Moitapchoi_k15|🥈(TVLT 13),🥇(TVLT 25),🥉(TVLT Tháng 8.2023)
 #6|@ShinichiKhoa|🥉(TVLT 7),🥈(TVLT 17),🥈(TVLT Chào Xuân Giáp Thìn 2024)
@@ -11,7 +11,7 @@ Hạng|Kỳ thủ|Các lần đạt giải
 #8|@MetropolitanCheckers|🥉(TVLT 20),🥇(TVLT 21)
 #9|@Mehechanic|🥈(TVLT 3),🥈(TVLT 19)
 #9|$CTHNannhhuycv2010|🥈(TVLT 9),🥈(TVLT 14)
-#9|@NgAnhHuy2010|🥈(TVLT 12),🥈(TVLT Tháng 8.2023)
+#9|@George-Walker-Bush|🥈(TVLT 12),🥈(TVLT Tháng 8.2023)
 #10|@Cr10-goal|🥉(TVLT 8),🥈(TVLT 10)
 #10|@M-DinhHoangViet|🥈(TVLT 11),🥉(TVLT 12)
 #10|@RicacdoMilos|🥉(TVLT Tháng 6.2023),🥈(TVLT Tháng 7.2023)
