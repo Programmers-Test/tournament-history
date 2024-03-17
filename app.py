@@ -6,7 +6,6 @@ TYPES = [
     'dttv',
     'tvlt',
     'cbtt',
-    'bestPlayers'
 ]
 
 @app.route('/')
