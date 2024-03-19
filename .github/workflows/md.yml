@@ -35,7 +35,7 @@ jobs:
       - name: Cam kết & Đẩy tệp
         run: |
           git config --local user.email "vietdinh856@gmail.com"
-          git config --local user.name "TVLT-Admim"
+          git config --local user.name "Thi-Vua-Lay-Tot"
           git add -A
-          git commit -m "Cập nhật bảng xếp hạng lên web"
+          git commit -m "Cập nhật danh sách lên web"
           git push --force
