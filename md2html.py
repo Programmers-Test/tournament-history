@@ -35,7 +35,7 @@ css_styles = """<!DOCTYPE html>
                     <a href="https://thivualaytot.github.io" title="Trang chủ TVLT">Trang chủ</a>
                 </li>
                 <li>
-                    <a href="https://thivualaytot.github.io/blog" title="Các bài Blog quan trọng của TVLT">Blog</a>
+                    <a href="https://thi-vua-lay-tot.github.io/blog" title="Các bài Blog quan trọng của TVLT">Blog</a>
                 </li>
                 <li>
                     <a href="https://thivualaytot.github.io/vlogs" title="Các Video quan trọng của TVLT">Vlogs</a>
@@ -71,7 +71,7 @@ footer_style = """
             <div>
                 <h3><a href="https://thivualaytot.github.io" title="Trang web Thí Vua Lấy Tốt">Thí Vua Lấy Tốt</a></h3>
                   <p><a href="https://thivualaytot.github.io/webs" title="Social media links">Các trang mạng</a></p>
-                  <p><a href="https://thivualaytot.github.io/blog" title="Các bài Blog quan trọng của TVLT">Các Blog</a></p>
+                  <p><a href="https://thi-vua-lay-tot.github.io/blog" title="Các bài Blog quan trọng của TVLT">Các Blog</a></p>
                   <p><a href="https://thivualaytot.github.io/vlogs" title="Các Video quan trọng của TVLT">Các Vlog</a></p>
                   <p><a href="https://thivualaytot.github.io/game" title="Các trò chơi đơn giản">Các trò chơi đơn giản</a></p>
                   <p><a href="https://thivualaytot.github.io/list" title="Các danh sách/bảng quan trọng">Danh sách</a></p>
