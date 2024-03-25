@@ -212,6 +212,12 @@ for directory in directories:
     for filename in os.listdir(directory):
         if filename.endswith('.md'):
             with open(os.path.join(directory, filename), 'r') as md_file:
+                if filename in ["thivualaytot.md"]:
+                    f = "tvlt.md"
+                elif filename in ["cobithitot.md"]:
+                    f = "cbtt.md"
+                else:
+                    f = "dttv.md"
                 h1_tag = generate_h1_tag(filename)
                 
                 markdown_table = md_file.read()
@@ -219,6 +225,6 @@ for directory in directories:
 
                 styled_html_table = css_styles + h1_tag + information + html_table + footer_style
 
-                html_filename = '/winner/' + os.path.splitext(filename)[0] + '.md'
+                html_filename = os.path.splitext(filename)[0] + '.md'
                 with open(os.path.join(directory, html_filename), 'w') as html_file:
                     html_file.write(styled_html_table)
