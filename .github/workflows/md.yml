@@ -6,8 +6,12 @@ on:
     paths:
       - 'md2html.py'
       - 'mdtohtml.py'
-      - 'list/*.md'
-      - 'top/*.md'
+      - 'list/thivualaytot.md'
+      - 'top/thivualaytot.md'
+      - 'list/cobithitot.md'
+      - 'top/cobithitot.md'
+      - 'list/dautruongthivua.md'
+      - 'top/dautruongthivua.md'
 
 env:
   TOKEN: ${{ secrets.TOKEN }}
