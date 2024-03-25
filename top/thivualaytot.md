@@ -1,71 +1,451 @@
-Hạng|Kỳ thủ|Các lần đạt giải
----|---|---
-#1|! @lecongdat1122|🥇(TVLT 4),🥇(TVLT 5),🥈(TVLT 7),🥇(TVLT 8),🥈(TVLT 14)
-#2|@Vchhabinhan1234|🥈(TVLT 16),🥈(TVLT 18),🥉(TVLT Tháng 9.2023),🥈(TVLT Tháng 3.2024)
-#3|@Spaghetticf|🥇(TVLT 18),🥇(TVLT 20),🥇(TVLT Tháng 7.2023)
-#4|@nhattandl185|🥇(TVLT 13),🥉(TVLT 15),🥇(TVLT 16)
-#5|? @Moitapchoi_k15|🥈(TVLT 13),🥇(TVLT 25),🥉(TVLT Tháng 8.2023)
-#6|@ShinichiKhoa|🥉(TVLT 7),🥈(TVLT 17),🥈(TVLT Chào Xuân Giáp Thìn 2024)
-#7|@Nguyen_Si_Trong_Duc|🥇(TVLT Tháng 8.2023),🥇(TVLT Tháng 1.2024)
-#8|@nngmei|🥇(TVLT 15),🥉(TVLT 19)
-#8|@MetropolitanCheckers|🥉(TVLT 20),🥇(TVLT 21)
-#9|@Mehechanic|🥈(TVLT 3),🥈(TVLT 19)
-#9|$CTHNannhhuycv2010|🥈(TVLT 9),🥈(TVLT 14)
-#9|@George-Walker-Bush|🥈(TVLT 12),🥈(TVLT Tháng 8.2023)
-#10|@Cr10-goal|🥉(TVLT 8),🥈(TVLT 10)
-#10|@M-DinhHoangViet|🥈(TVLT 11),🥉(TVLT 12)
-#10|@RicacdoMilos|🥉(TVLT Tháng 6.2023),🥈(TVLT Tháng 7.2023)
-#10|@QuynhQT|🥉(TVLT Tháng 7.2023), 🥈(TVLT Tháng 1.2024)
-#11|@GM_TUANKIET_KTTTL|🥉(TVLT 17),🥉(TVLT 18)
-#12|@congnguyen1406|🥇(TVLT 1)
-#12|@playerkhoa|🥇(TVLT 2)
-#12|@Littlegirl2006|🥇(TVLT 3)
-#12|$maynho-04|🥇(TVLT 6)
-#12|@Samurice_vn|🥇(TVLT 7)
-#12|$zendatran|🥇(TVLT 9)
-#12|@the_evil_cats|🥇(TVLT 10)
-#12|$Redofblue|🥇(TVLT 11)
-#12|@vgt187|🥇(TVLT 12)
-#12|$Con-Ga-Biet-Bay|🥇(TVLT 14)
-#12|@tdung2010|🥇(TVLT 17)
-#12|? @me3nGL3|🥇(TVLT 19)
-#12|@Dragon-chess12|🥇(TVLT Tháng 6.2023)
-#12|@HaiNam1405|🥇(TVLT Tháng 9.2023)
-#12|@trongvinh123|🥇(TVLT Tháng 10.2023)
-#12|@Crab1234|🥇(TVLT Tháng 11.2023)
-#12|@Krinit_6174|🥇(TVLT Tháng 12.2023)
-#12|@Mr_Dainn|🥇(TVLT Chào Xuân Giáp Thìn 2024)
-#12|Champsfuturetth2k5|🥇(TVLT Tháng 3.2024)
-#13|@Luffy_murom|🥈(TVLT 1)
-#13|@phongdeptraiqua|🥈(TVLT 2)
-#13|@thangthukquantrong|🥈(TVLT 4)
-#13|@GMTranHung|🥈(TVLT 5)
-#13|$DTHtiendung2010|🥈(TVLT 6)
-#13|? @SparkleDreamer|🥈(TVLT 8)
-#13|@boat2009|🥈(TVLT 15)
-#13|@DucNguyen78|🥈(TVLT 20)
-#13|? @GMHansNiemann2009|🥈(TVLT 21)
-#13|@Lams2010|🥈(TVLT Tháng 6.2023)
-#13|@chorachricon|🥈(TVLT Tháng 9.2023)
-#13|? @vupham08|🥈(TVLT Tháng 10.2023)
-#13|@Wingstw|🥈(TVLT Tháng 11.2023)
-#13|@Phamtienduc1|🥈(TVLT Tháng 12.2023)
-#14|@hackert38|🥉(TVLT 1)
-#14|@PhanPhucDinh|🥉(TVLT 2)
-#14|@Wibu2k1|🥉(TVLT 3)
-#14|@phantom00308|🥉(TVLT 4)
-#14|@vvhung|🥉(TVLT 5)
-#14|$danieltony3555|🥉(TVLT 6)
-#14|@vuquangminhtv|🥉(TVLT 7)
-#14|$chess-super|🥉(TVLT 9)
-#14|? @GMZQUEst|🥉(TVLT 10)
-#14|$HCMThanhLong2k8|🥉(TVLT 11)
-#14|@phuonganximi|🥉(TVLT 13)
-#14|$pohlestoff|🥉(TVLT 16)
-#14|? @TranVanManh20061|🥉(TVLT 21)
-#14|@chikien08|🥉(TVLT Tháng 10.2023)
-#14|@duongnm2407|🥉(TVLT Tháng 11.2023)
-#14|@oliebuonngu|🥉(TVLT Tháng 12.2023)
-#14|@nth_2402|🥉(TVLT Tháng 1.2024)
-#14|@NQB26|🥉(TVLT Tháng 1.2024)
-#14|@vietanhhar232|🥉(TVLT Tháng 3.2024)
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>Top kỳ đạt giải</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://thivualaytot.github.io/css/main.css">
+    <link rel="stylesheet" href="https://thivualaytot.github.io/css/topwinner.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="icon" href="https://raw.githubusercontent.com/ThiVuaLayTot/ThiVuaLayTot.github.io/main/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="https://thivualaytot.github.io" title="Thí Vua Lấy Tốt"><img src="https://raw.githubusercontent.com/ThiVuaLayTot/ThiVuaLayTot.github.io/main/images/favicon.ico" title="Thí Vua Lấy Tốt"></a>
+            </div>
+            <ul class="navbar-nav">
+                <li>
+                    <a href="https://thivualaytot.github.io" title="Trang chủ TVLT">Trang chủ</a>
+                </li>
+                <li>
+                    <a href="https://thi-vua-lay-tot.github.io/blog" title="Các bài Blog quan trọng của TVLT">Blog</a>
+                </li>
+                <li>
+                    <a href="https://thivualaytot.github.io/vlogs" title="Các Video quan trọng của TVLT">Vlogs</a>
+                </li>
+                <li>
+                    <a href="https://thivualaytot.github.io/webs" title="Social media links">Xã hội</a>
+                </li>
+                <li>
+                    <a href="https://thivualaytot.github.io/game" title="Các trò chơi đơn giản">Games</a>
+                </li>
+                <li>
+                    <a href="https://thivualaytot.github.io/list" title="Các danh sách/bảng quan trọng">Danh sách</a>
+                </li>
+                <li>
+                    <a href="https://thivualaytot.github.io/team" title="Ban cán sự của TVLT">Mods</a>
+                </li>
+            </ul>
+		    <div>
+                <label class="mode">
+                    <input type="checkbox" id="darkModeToggle">
+                    <i id="moon" class="bx bxs-moon" title="Bật/Tắt chế độ tối"></i>
+                    <a href="#top"><i id="back2top" class="bx bxs-to-top" title="Trở lại đầu trang này"></i></a>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <h1 align="center">Top kỳ thủ đạt giải thivualaytot</h1>
+    <h2 align="center">Bạn có thể xem danh sách các kỳ thủ đạt giải thivualaytot <a href="https://thivualaytot.github.io/tournament-history/list/thivualaytot">Ở đây</a>.</h2>
+    <p align="right"><i>Lần cuối cập nhật: 19:29:7, ngày 25 tháng 3 năm 2024</i></p>
+      <p>  Nếu sau tên người dùng có: <span class="loader"></span> nghĩa là người chơi này có khả năng không được đạt giải hoặc đạt giải khác và đang chờ xác thực,<img class="verified" src="https://s3.vio.edu.vn/assets/img/wrong_icon_2.png"> là người chơi đã nhận phần thưởng nhưng sau đó đã xác nhận là gian lận.</p>
+      <p>  Và nếu tài khoản đó bị đóng do gian lận thì chuyển giải sang người đứng thứ hạng phía sau.</p>
+      <table class="styled-table">
+         <tr>
+           <th class="stt">Hạng</th>
+           <th>Kỳ thủ</th>
+           <th>Các lần đạt giải</th>
+         </tr>
+         <tr>
+           <td>#1</td>
+           <td><a href="https://www.chess.com/member/lecongdat1122" title="Xem tài khoản Chess.com của lecongdat1122" target="_blank">lecongdat1122 <img class="verified" src="https://s3.vio.edu.vn/assets/img/wrong_icon_2.png" title="Tài khoản gian lận"></a></td>
+           <td>🥇(TVLT 4),🥇(TVLT 5),🥈(TVLT 7),🥇(TVLT 8),🥈(TVLT 14)</td>
+         </tr>
+         <tr>
+           <td>#2</td>
+           <td><a href="https://www.chess.com/member/Vchhabinhan1234" title="Xem tài khoản Chess.com của Vchhabinhan1234" target="_blank">Vchhabinhan1234</a></td>
+           <td>🥈(TVLT 16),🥈(TVLT 18),🥉(TVLT Tháng 9.2023),🥈(TVLT Tháng 3.2024)</td>
+         </tr>
+         <tr>
+           <td>#3</td>
+           <td><a href="https://www.chess.com/member/Spaghetticf" title="Xem tài khoản Chess.com của Spaghetticf" target="_blank">Spaghetticf</a></td>
+           <td>🥇(TVLT 18),🥇(TVLT 20),🥇(TVLT Tháng 7.2023)</td>
+         </tr>
+         <tr>
+           <td>#4</td>
+           <td><a href="https://www.chess.com/member/nhattandl185" title="Xem tài khoản Chess.com của nhattandl185" target="_blank">nhattandl185</a></td>
+           <td>🥇(TVLT 13),🥉(TVLT 15),🥇(TVLT 16)</td>
+         </tr>
+         <tr>
+           <td>#5</td>
+           <td><a href="https://www.chess.com/member/Moitapchoi_k15" title="Xem tài khoản Chess.com của Moitapchoi_k15" target="_blank">Moitapchoi_k15</a> <span class="loader"></span></td>
+           <td>🥈(TVLT 13),🥇(TVLT 25),🥉(TVLT Tháng 8.2023)</td>
+         </tr>
+         <tr>
+           <td>#6</td>
+           <td><a href="https://www.chess.com/member/ShinichiKhoa" title="Xem tài khoản Chess.com của ShinichiKhoa" target="_blank">ShinichiKhoa</a></td>
+           <td>🥉(TVLT 7),🥈(TVLT 17),🥈(TVLT Chào Xuân Giáp Thìn 2024)</td>
+         </tr>
+         <tr>
+           <td>#7</td>
+           <td><a href="https://www.chess.com/member/Nguyen_Si_Trong_Duc" title="Xem tài khoản Chess.com của Nguyen_Si_Trong_Duc" target="_blank">Nguyen_Si_Trong_Duc</a></td>
+           <td>🥇(TVLT Tháng 8.2023),🥇(TVLT Tháng 1.2024)</td>
+         </tr>
+         <tr>
+           <td>#8</td>
+           <td><a href="https://www.chess.com/member/nngmei" title="Xem tài khoản Chess.com của nngmei" target="_blank">nngmei</a></td>
+           <td>🥇(TVLT 15),🥉(TVLT 19)</td>
+         </tr>
+         <tr>
+           <td>#8</td>
+           <td><a href="https://www.chess.com/member/MetropolitanCheckers" title="Xem tài khoản Chess.com của MetropolitanCheckers" target="_blank">MetropolitanCheckers</a></td>
+           <td>🥉(TVLT 20),🥇(TVLT 21)</td>
+         </tr>
+         <tr>
+           <td>#9</td>
+           <td><a href="https://www.chess.com/member/Mehechanic" title="Xem tài khoản Chess.com của Mehechanic" target="_blank">Mehechanic</a></td>
+           <td>🥈(TVLT 3),🥈(TVLT 19)</td>
+         </tr>
+         <tr>
+           <td>#9</td>
+           <td><a href="https://lichess.org/@/CTHNannhhuycv2010" title="Xem tài khoản Lichess của CTHNannhhuycv2010" target="_blank">CTHNannhhuycv2010</a></td>
+           <td>🥈(TVLT 9),🥈(TVLT 14)</td>
+         </tr>
+         <tr>
+           <td>#9</td>
+           <td><a href="https://www.chess.com/member/George-Walker-Bush" title="Xem tài khoản Chess.com của George-Walker-Bush" target="_blank">George-Walker-Bush</a></td>
+           <td>🥈(TVLT 12),🥈(TVLT Tháng 8.2023)</td>
+         </tr>
+         <tr>
+           <td>#10</td>
+           <td><a href="https://www.chess.com/member/Cr10-goal" title="Xem tài khoản Chess.com của Cr10-goal" target="_blank">Cr10-goal</a></td>
+           <td>🥉(TVLT 8),🥈(TVLT 10)</td>
+         </tr>
+         <tr>
+           <td>#10</td>
+           <td><a href="https://www.chess.com/member/M-DinhHoangViet" title="Xem tài khoản Chess.com của M-DinhHoangViet" target="_blank">M-DinhHoangViet</a></td>
+           <td>🥈(TVLT 11),🥉(TVLT 12)</td>
+         </tr>
+         <tr>
+           <td>#10</td>
+           <td><a href="https://www.chess.com/member/RicacdoMilos" title="Xem tài khoản Chess.com của RicacdoMilos" target="_blank">RicacdoMilos</a></td>
+           <td>🥉(TVLT Tháng 6.2023),🥈(TVLT Tháng 7.2023)</td>
+         </tr>
+         <tr>
+           <td>#10</td>
+           <td><a href="https://www.chess.com/member/QuynhQT" title="Xem tài khoản Chess.com của QuynhQT" target="_blank">QuynhQT</a></td>
+           <td>🥉(TVLT Tháng 7.2023), 🥈(TVLT Tháng 1.2024)</td>
+         </tr>
+         <tr>
+           <td>#11</td>
+           <td><a href="https://www.chess.com/member/GM_TUANKIET_KTTTL" title="Xem tài khoản Chess.com của GM_TUANKIET_KTTTL" target="_blank">GM_TUANKIET_KTTTL</a></td>
+           <td>🥉(TVLT 17),🥉(TVLT 18)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/congnguyen1406" title="Xem tài khoản Chess.com của congnguyen1406" target="_blank">congnguyen1406</a></td>
+           <td>🥇(TVLT 1)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/playerkhoa" title="Xem tài khoản Chess.com của playerkhoa" target="_blank">playerkhoa</a></td>
+           <td>🥇(TVLT 2)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/Littlegirl2006" title="Xem tài khoản Chess.com của Littlegirl2006" target="_blank">Littlegirl2006</a></td>
+           <td>🥇(TVLT 3)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://lichess.org/@/maynho-04" title="Xem tài khoản Lichess của maynho-04" target="_blank">maynho-04</a></td>
+           <td>🥇(TVLT 6)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/Samurice_vn" title="Xem tài khoản Chess.com của Samurice_vn" target="_blank">Samurice_vn</a></td>
+           <td>🥇(TVLT 7)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://lichess.org/@/zendatran" title="Xem tài khoản Lichess của zendatran" target="_blank">zendatran</a></td>
+           <td>🥇(TVLT 9)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/the_evil_cats" title="Xem tài khoản Chess.com của the_evil_cats" target="_blank">the_evil_cats</a></td>
+           <td>🥇(TVLT 10)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://lichess.org/@/Redofblue" title="Xem tài khoản Lichess của Redofblue" target="_blank">Redofblue</a></td>
+           <td>🥇(TVLT 11)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/vgt187" title="Xem tài khoản Chess.com của vgt187" target="_blank">vgt187</a></td>
+           <td>🥇(TVLT 12)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://lichess.org/@/Con-Ga-Biet-Bay" title="Xem tài khoản Lichess của Con-Ga-Biet-Bay" target="_blank">Con-Ga-Biet-Bay</a></td>
+           <td>🥇(TVLT 14)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/tdung2010" title="Xem tài khoản Chess.com của tdung2010" target="_blank">tdung2010</a></td>
+           <td>🥇(TVLT 17)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/me3nGL3" title="Xem tài khoản Chess.com của me3nGL3" target="_blank">me3nGL3</a> <span class="loader"></span></td>
+           <td>🥇(TVLT 19)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/Dragon-chess12" title="Xem tài khoản Chess.com của Dragon-chess12" target="_blank">Dragon-chess12</a></td>
+           <td>🥇(TVLT Tháng 6.2023)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/HaiNam1405" title="Xem tài khoản Chess.com của HaiNam1405" target="_blank">HaiNam1405</a></td>
+           <td>🥇(TVLT Tháng 9.2023)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/trongvinh123" title="Xem tài khoản Chess.com của trongvinh123" target="_blank">trongvinh123</a></td>
+           <td>🥇(TVLT Tháng 10.2023)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/Crab1234" title="Xem tài khoản Chess.com của Crab1234" target="_blank">Crab1234</a></td>
+           <td>🥇(TVLT Tháng 11.2023)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/Krinit_6174" title="Xem tài khoản Chess.com của Krinit_6174" target="_blank">Krinit_6174</a></td>
+           <td>🥇(TVLT Tháng 12.2023)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td><a href="https://www.chess.com/member/Mr_Dainn" title="Xem tài khoản Chess.com của Mr_Dainn" target="_blank">Mr_Dainn</a></td>
+           <td>🥇(TVLT Chào Xuân Giáp Thìn 2024)</td>
+         </tr>
+         <tr>
+           <td>#12</td>
+           <td>Champsfuturetth2k5</td>
+           <td>🥇(TVLT Tháng 3.2024)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/Luffy_murom" title="Xem tài khoản Chess.com của Luffy_murom" target="_blank">Luffy_murom</a></td>
+           <td>🥈(TVLT 1)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/phongdeptraiqua" title="Xem tài khoản Chess.com của phongdeptraiqua" target="_blank">phongdeptraiqua</a></td>
+           <td>🥈(TVLT 2)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/thangthukquantrong" title="Xem tài khoản Chess.com của thangthukquantrong" target="_blank">thangthukquantrong</a></td>
+           <td>🥈(TVLT 4)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/GMTranHung" title="Xem tài khoản Chess.com của GMTranHung" target="_blank">GMTranHung</a></td>
+           <td>🥈(TVLT 5)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://lichess.org/@/DTHtiendung2010" title="Xem tài khoản Lichess của DTHtiendung2010" target="_blank">DTHtiendung2010</a></td>
+           <td>🥈(TVLT 6)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/SparkleDreamer" title="Xem tài khoản Chess.com của SparkleDreamer" target="_blank">SparkleDreamer</a> <span class="loader"></span></td>
+           <td>🥈(TVLT 8)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/boat2009" title="Xem tài khoản Chess.com của boat2009" target="_blank">boat2009</a></td>
+           <td>🥈(TVLT 15)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/DucNguyen78" title="Xem tài khoản Chess.com của DucNguyen78" target="_blank">DucNguyen78</a></td>
+           <td>🥈(TVLT 20)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/GMHansNiemann2009" title="Xem tài khoản Chess.com của GMHansNiemann2009" target="_blank">GMHansNiemann2009</a> <span class="loader"></span></td>
+           <td>🥈(TVLT 21)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/Lams2010" title="Xem tài khoản Chess.com của Lams2010" target="_blank">Lams2010</a></td>
+           <td>🥈(TVLT Tháng 6.2023)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/chorachricon" title="Xem tài khoản Chess.com của chorachricon" target="_blank">chorachricon</a></td>
+           <td>🥈(TVLT Tháng 9.2023)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/vupham08" title="Xem tài khoản Chess.com của vupham08" target="_blank">vupham08</a> <span class="loader"></span></td>
+           <td>🥈(TVLT Tháng 10.2023)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/Wingstw" title="Xem tài khoản Chess.com của Wingstw" target="_blank">Wingstw</a></td>
+           <td>🥈(TVLT Tháng 11.2023)</td>
+         </tr>
+         <tr>
+           <td>#13</td>
+           <td><a href="https://www.chess.com/member/Phamtienduc1" title="Xem tài khoản Chess.com của Phamtienduc1" target="_blank">Phamtienduc1</a></td>
+           <td>🥈(TVLT Tháng 12.2023)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/hackert38" title="Xem tài khoản Chess.com của hackert38" target="_blank">hackert38</a></td>
+           <td>🥉(TVLT 1)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/PhanPhucDinh" title="Xem tài khoản Chess.com của PhanPhucDinh" target="_blank">PhanPhucDinh</a></td>
+           <td>🥉(TVLT 2)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/Wibu2k1" title="Xem tài khoản Chess.com của Wibu2k1" target="_blank">Wibu2k1</a></td>
+           <td>🥉(TVLT 3)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/phantom00308" title="Xem tài khoản Chess.com của phantom00308" target="_blank">phantom00308</a></td>
+           <td>🥉(TVLT 4)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/vvhung" title="Xem tài khoản Chess.com của vvhung" target="_blank">vvhung</a></td>
+           <td>🥉(TVLT 5)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://lichess.org/@/danieltony3555" title="Xem tài khoản Lichess của danieltony3555" target="_blank">danieltony3555</a></td>
+           <td>🥉(TVLT 6)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/vuquangminhtv" title="Xem tài khoản Chess.com của vuquangminhtv" target="_blank">vuquangminhtv</a></td>
+           <td>🥉(TVLT 7)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://lichess.org/@/chess-super" title="Xem tài khoản Lichess của chess-super" target="_blank">chess-super</a></td>
+           <td>🥉(TVLT 9)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/GMZQUEst" title="Xem tài khoản Chess.com của GMZQUEst" target="_blank">GMZQUEst</a> <span class="loader"></span></td>
+           <td>🥉(TVLT 10)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://lichess.org/@/HCMThanhLong2k8" title="Xem tài khoản Lichess của HCMThanhLong2k8" target="_blank">HCMThanhLong2k8</a></td>
+           <td>🥉(TVLT 11)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/phuonganximi" title="Xem tài khoản Chess.com của phuonganximi" target="_blank">phuonganximi</a></td>
+           <td>🥉(TVLT 13)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://lichess.org/@/pohlestoff" title="Xem tài khoản Lichess của pohlestoff" target="_blank">pohlestoff</a></td>
+           <td>🥉(TVLT 16)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/TranVanManh20061" title="Xem tài khoản Chess.com của TranVanManh20061" target="_blank">TranVanManh20061</a> <span class="loader"></span></td>
+           <td>🥉(TVLT 21)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/chikien08" title="Xem tài khoản Chess.com của chikien08" target="_blank">chikien08</a></td>
+           <td>🥉(TVLT Tháng 10.2023)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/duongnm2407" title="Xem tài khoản Chess.com của duongnm2407" target="_blank">duongnm2407</a></td>
+           <td>🥉(TVLT Tháng 11.2023)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/oliebuonngu" title="Xem tài khoản Chess.com của oliebuonngu" target="_blank">oliebuonngu</a></td>
+           <td>🥉(TVLT Tháng 12.2023)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/nth_2402" title="Xem tài khoản Chess.com của nth_2402" target="_blank">nth_2402</a></td>
+           <td>🥉(TVLT Tháng 1.2024)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/NQB26" title="Xem tài khoản Chess.com của NQB26" target="_blank">NQB26</a></td>
+           <td>🥉(TVLT Tháng 1.2024)</td>
+         </tr>
+         <tr>
+           <td>#14</td>
+           <td><a href="https://www.chess.com/member/vietanhhar232" title="Xem tài khoản Chess.com của vietanhhar232" target="_blank">vietanhhar232</a></td>
+           <td>🥉(TVLT Tháng 3.2024)</td>
+         </tr>
+   </table>
+        <br><br><hr>
+    
+    <div class="footer">
+        <div class="footer-container">
+            <div>
+                <h3><a href="https://thivualaytot.github.io" title="Trang web Thí Vua Lấy Tốt">Thí Vua Lấy Tốt</a></h3>
+                  <p><a href="https://thivualaytot.github.io/webs" title="Social media links">Các trang mạng</a></p>
+                  <p><a href="https://thi-vua-lay-tot.github.io/blog" title="Các bài Blog quan trọng của TVLT">Các Blog</a></p>
+                  <p><a href="https://thivualaytot.github.io/vlogs" title="Các Video quan trọng của TVLT">Các Vlog</a></p>
+                  <p><a href="https://thivualaytot.github.io/game" title="Các trò chơi đơn giản">Các trò chơi đơn giản</a></p>
+                  <p><a href="https://thivualaytot.github.io/list" title="Các danh sách/bảng quan trọng">Danh sách</a></p>
+                  <p><a href="https://thivualaytot.github.io/team" title="Ban cán sự của TVLT">Ban cán sự của TVLT</a></p>
+            </div>
+            <div>
+                <h3><a href="https://thivualaytot.github.io/webs">Social meadia links</a></h3>
+                <div class="button">
+                  <a href="https://www.youtube.com/@TungJohnPlayingChess" target="_blank" title="Kênh Youtube của TungJohn"><i class="bx bxl-youtube"></i></a>
+                  <a href="https://www.tiktok.com/@tungjohn2005" target="_blank" title="Tài khoản Tiktok của TungJohn"><i class="bx bxl-tiktok"></i></a>
+                  <a href="https://clubs.chess.com/GkQy" target="_blank" title="Câu lạc bộ Thí Vua Lấy Tốt trên Chess.com"><img src="https://images.chesscomfiles.com/uploads/v1/user/33.862d5ff1.160x160o.578dc76c0662.png"></a>
+                  <a href="https://lichess.org/team/thi-vua-lay-tot-tungjohn-playing-chess" target="_blank" title="Đội Thí Vua Lấy Tốt trên Lichess"><img src="https://thivualaytot.github.io/images/lichesslogo.png"></a></a>
+                  <a href="https://www.facebook.com/TungJohn2005" target="_blank" title="Trang Facebook của TungJohn Playing Chess"><i class="bx bxl-facebook"></i></a></li>
+                  <a href="https://zalo.me/g/zhrwtn779" target="_blank" title="Nhóm chat của Thí Vua Lấy Tốt trên Zalo"><img width="14" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg"></a>
+                  <a href="https://discord.gg/WUhW5Cs9gB" target="_blank" title="Máy chủ Discord của Thí Vua Lấy Tốt"><i class="bx bxl-discord"></i></a>
+                </div>
+            </div>
+            <div>
+            <br><br>
+                <p>Web được xây dựng bởi QTV <a href="https://thivualaytot.github.io/team#admins" title="Các quản trị viên">Đinh Hoàng Việt</a>.</p>
+                <p>Mã nguồn trên <a href="https://github.com/ThiVuaLayTot/ThiVuaLayTot.github.io" title="Mã nguồn của web trên Github"><img class="github-logo" src="https://github.com/fluidicon.png" alt="GitHub Icon"></a></p>
+                <label>
+                    <a href="#top"><i id="back2top" class="bx bxs-to-top" title="Trở lại đầu trang này"></i></a>
+                </label>
+            </div>
+        </div>
+    </div>
+    <script src="https://thivualaytot.github.io/js/main.js"></script>
+</body>
+
+</html>
+
