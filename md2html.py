@@ -218,7 +218,7 @@ for directory in directories:
                     f = "cbtt.md"
                 else:
                     f = "dttv.md"
-                h1_tag = generate_h1_tag(filename)
+                h1_tag = generate_h1_tag(f)
                 
                 markdown_table = md_file.read()
                 html_table = markdown_table_to_html(markdown_table)
