@@ -1,6 +1,7 @@
 name: Cập nhật tệp .md sang tệp .html
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
     paths:
