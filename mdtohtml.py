@@ -191,6 +191,6 @@ for directory in directories:
 
                 styled_html_table = css_styles + h1_tag + information + html_table + footer_style
 
-                html_filename = os.path.splitext(filename)[0] + '.md'
+                html_filename = os.path.splitext(f)[0] + '.md'
                 with open(os.path.join(directory, html_filename), 'w') as html_file:
                     html_file.write(styled_html_table)
