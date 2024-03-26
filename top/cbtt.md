@@ -1,15 +1,4 @@
-from datetime import datetime
-import pytz
-import logging
-import logging.handlers
-import os
-import os.path
-import re
-import subprocess
-import sys
-
-
-css_styles = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="vi">
 
 <head>
@@ -63,9 +52,75 @@ css_styles = """<!DOCTYPE html>
         </div>
     </header>
 
-"""
-
-footer_style = """
+    <h1 align="center">Top kỳ thủ đạt giải cbtt</h1>
+    <h2 align="center">Bạn có thể xem danh sách các kỳ thủ đạt giải cbtt <a href="https://thivualaytot.github.io/tournament-history/list/cbtt">Ở đây</a>.</h2>
+    <p align="right"><i>Lần cuối cập nhật: 23:35:22, ngày 20 tháng 3 năm 2024</i></p>
+      <p>  Nếu sau tên người dùng có: <span class="loader"></span> nghĩa là người chơi này có khả năng không được đạt giải hoặc đạt giải khác và đang chờ xác thực,<img class="verified" src="https://s3.vio.edu.vn/assets/img/wrong_icon_2.png"> là người chơi đã nhận phần thưởng nhưng sau đó đã xác nhận là gian lận.</p>
+      <p>  Và nếu tài khoản đó bị đóng do gian lận thì chuyển giải sang người đứng thứ hạng phía sau.</p>
+      <table class="styled-table">
+         <tr>
+           <th class="stt">Hạng</th>
+           <th>Kỳ thủ</th>
+           <th>Các lần đạt giải</th>
+         </tr>
+         <tr>
+           <td>#1</td>
+           <td><a href="https://www.chess.com/member/TokudaShigeoJr" title="Xem tài khoản Chess.com của TokudaShigeoJr" target="_blank">TokudaShigeoJr</a></td>
+           <td>🥇(Tháng 12.2023),🥉(Tháng 3.2024)</td>
+         </tr>
+         <tr>
+           <td>#2</td>
+           <td><a href="https://www.chess.com/member/MrKaitoJay" title="Xem tài khoản Chess.com của MrKaitoJay" target="_blank">MrKaitoJay</a></td>
+           <td>🥇(Tháng 11.2023)</td>
+         </tr>
+         <tr>
+           <td>#2</td>
+           <td><a href="https://www.chess.com/member/QuynhQT" title="Xem tài khoản Chess.com của QuynhQT" target="_blank">QuynhQT</a></td>
+           <td>🥇(Tháng 1.2024)</td>
+         </tr>
+         <tr>
+           <td>#2</td>
+           <td><a href="https://www.chess.com/member/ctp3101" title="Xem tài khoản Chess.com của ctp3101" target="_blank">ctp3101</a></td>
+           <td>🥇(Tháng 3.2024)</td>
+         </tr>
+         <tr>
+           <td>#3</td>
+           <td><a href="https://www.chess.com/member/Moitapchoi_k15" title="Xem tài khoản Chess.com của Moitapchoi_k15" target="_blank">Moitapchoi_k15</a></td>
+           <td>🥈(Tháng 11.2023)</td>
+         </tr>
+         <tr>
+           <td>#3</td>
+           <td><a href="https://www.chess.com/member/anhtuanka42007" title="Xem tài khoản Chess.com của anhtuanka42007" target="_blank">anhtuanka42007</a></td>
+           <td>🥈(Tháng 12.2023)</td>
+         </tr>
+         <tr>
+           <td>#3</td>
+           <td><a href="https://www.chess.com/member/GMTranHung" title="Xem tài khoản Chess.com của GMTranHung" target="_blank">GMTranHung</a></td>
+           <td>🥈(Tháng 1.2024)</td>
+         </tr>
+         <tr>
+           <td>#3</td>
+           <td><a href="https://www.chess.com/member/AgileSquirrel10" title="Xem tài khoản Chess.com của AgileSquirrel10" target="_blank">AgileSquirrel10</a></td>
+           <td>🥈(Tháng 3.2024)</td>
+         </tr>
+         <tr>
+           <td>#4</td>
+           <td><a href="https://www.chess.com/member/meowf1" title="Xem tài khoản Chess.com của meowf1" target="_blank">meowf1</a></td>
+           <td>🥉(Tháng 11.2023)</td>
+         </tr>
+         <tr>
+           <td>#4</td>
+           <td><a href="https://www.chess.com/member/LightInMyEye" title="Xem tài khoản Chess.com của LightInMyEye" target="_blank">LightInMyEye</a></td>
+           <td>🥉(Tháng 12.2023)</td>
+         </tr>
+         <tr>
+           <td>#4</td>
+           <td><a href="https://www.chess.com/member/Khim_Dayyyyy" title="Xem tài khoản Chess.com của Khim_Dayyyyy" target="_blank">Khim_Dayyyyy</a></td>
+           <td>🥉(Tháng 1.2024)</td>
+         </tr>
+   </table>
+        <br><br><hr>
+    
     <div class="footer">
         <div class="footer-container">
             <div>
@@ -104,93 +159,3 @@ footer_style = """
 
 </html>
 
-"""
-
-information = """
-      <p>  Nếu sau tên người dùng có: <span class="loader"></span> nghĩa là người chơi này có khả năng không được đạt giải hoặc đạt giải khác và đang chờ xác thực,<img class="verified" src="https://s3.vio.edu.vn/assets/img/wrong_icon_2.png"> là người chơi đã nhận phần thưởng nhưng sau đó đã xác nhận là gian lận.</p>
-      <p>  Và nếu tài khoản đó bị đóng do gian lận thì chuyển giải sang người đứng thứ hạng phía sau.</p>
-"""
-
-def generate_h1_tag(filename):
-    title = os.path.splitext(filename)[0]
-    tz_VI = pytz.timezone('Asia/Ho_Chi_Minh')
-    datetime_VI = datetime.now(tz_VI)
-    h1_tag = f"""    <h1 align="center">Top kỳ thủ đạt giải {title}</h1>
-    <h2 align="center">Bạn có thể xem danh sách các kỳ thủ đạt giải {title} <a href="https://thivualaytot.github.io/tournament-history/list/{title}">Ở đây</a>.</h2>
-    <p align="right"><i>Lần cuối cập nhật: {datetime_VI.hour}:{datetime_VI.minute}:{datetime_VI.second}, ngày {datetime_VI.day} tháng {datetime_VI.month} năm {datetime_VI.year}</i></p>"""
-    return h1_tag
-
-def markdown_table_to_html(markdown_table):
-    chesscom = f'https://www.chess.com'
-    lichess = f'https://lichess.org'
-    unverified_icon = f'https://s3.vio.edu.vn/assets/img/wrong_icon_2.png'
-    rows = markdown_table.strip().split('\n')
-    html_table = '      <table class="styled-table">\n'
-    for i, row in enumerate(rows):
-        if '---|---|---' in row:
-            continue
-
-        tag = 'th' if i == 0 else 'td'
-        cells = re.split(r'\s*\|\s*', row)
-
-        if len(cells) == 1 and cells[0] == '':
-            continue
-        
-        html_table += '         <tr>\n'
-        for cell in cells:
-            # Dành cho dòng đầu tiên
-            if cell.endswith('Hạng'):
-                text = cell[0:]
-                cell_content = f'       <{tag} class="stt">{text}</{tag}>'
-            elif cell.endswith('👑'):
-                text = cell[0:]
-                cell_content = f'       <{tag} class="winner">{text}</{tag}>'
-            elif cell.endswith('Các lần đạt giải'):
-                text = cell[0:]
-                cell_content = f'       <{tag}>{text}</{tag}>'
-            # Dành cho tài khoản trên Chess.com
-            elif cell.startswith('? @'):
-                username = cell[3:]
-                cell_content = f'       <{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}" target="_blank">{username}</a> <span class="loader"></span></{tag}>'
-            elif cell.startswith('! @'):
-                username = cell[3:]
-                cell_content = f'       <{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}" target="_blank">{username} <img class="verified" src="{unverified_icon}" title="Tài khoản gian lận"></a></{tag}>'
-            elif cell.startswith('@'):
-                username = cell[1:]
-                cell_content = f'       <{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}" target="_blank">{username}</a></{tag}>'
-            # Dành cho tài khoản trên Lichess
-            elif cell.startswith('$'):
-                username = cell[1:]
-                cell_content = f'       <{tag}><a href="{lichess}/@/{username}" title="Xem tài khoản Lichess của {username}" target="_blank">{username}</a></{tag}>'
-            # Dành cho các ô/dòng còn lại
-            else:
-                cell_content = f'       <{tag}>{cell}</{tag}>'
-            html_table += f'    {cell_content}\n'
-        html_table += '         </tr>\n'
-    html_table += '''   </table>
-        <br><br><hr>
-    '''
-    return html_table
-
-directories = ['top']
-
-for directory in directories:
-    for filename in os.listdir(directory):
-        if filename.endswith('.md'):
-            with open(os.path.join(directory, filename), 'r') as md_file:
-                if filename in ["thivualaytot.md"]:
-                    f = "tvlt.md"
-                elif filename in ["cobithitot.md"]:
-                    f = "cbtt.md"
-                else:
-                    f = "dttv.md"
-                h1_tag = generate_h1_tag(f)
-                
-                markdown_table = md_file.read()
-                html_table = markdown_table_to_html(markdown_table)
-
-                styled_html_table = css_styles + h1_tag + information + html_table + footer_style
-
-                html_filename = os.path.splitext(f)[0] + '.md'
-                with open(os.path.join(directory, html_filename), 'w') as html_file:
-                    html_file.write(styled_html_table)

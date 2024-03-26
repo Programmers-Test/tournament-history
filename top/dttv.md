@@ -1,15 +1,4 @@
-from datetime import datetime
-import pytz
-import logging
-import logging.handlers
-import os
-import os.path
-import re
-import subprocess
-import sys
-
-
-css_styles = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="vi">
 
 <head>
@@ -63,9 +52,36 @@ css_styles = """<!DOCTYPE html>
         </div>
     </header>
 
-"""
-
-footer_style = """
+    <h1 align="center">Top kỳ thủ đạt giải dttv</h1>
+    <h2 align="center">Bạn có thể xem danh sách các kỳ thủ đạt giải dttv <a href="https://thivualaytot.github.io/tournament-history/list/dttv">Ở đây</a>.</h2>
+    <p align="right"><i>Lần cuối cập nhật: 23:35:22, ngày 20 tháng 3 năm 2024</i></p>
+      <p>  Nếu sau tên người dùng có: <span class="loader"></span> nghĩa là người chơi này có khả năng không được đạt giải hoặc đạt giải khác và đang chờ xác thực,<img class="verified" src="https://s3.vio.edu.vn/assets/img/wrong_icon_2.png"> là người chơi đã nhận phần thưởng nhưng sau đó đã xác nhận là gian lận.</p>
+      <p>  Và nếu tài khoản đó bị đóng do gian lận thì chuyển giải sang người đứng thứ hạng phía sau.</p>
+      <table class="styled-table">
+         <tr>
+           <th>?</th>
+           <th>?</th>
+           <th>?</th>
+           <th>?</th>
+           <th>?</th>
+         </tr>
+         <tr>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+         </tr>
+         <tr>
+           <td>?</td>
+           <td>?</td>
+           <td>?</td>
+           <td>?</td>
+           <td>?</td>
+         </tr>
+   </table>
+        <br><br><hr>
+    
     <div class="footer">
         <div class="footer-container">
             <div>
@@ -104,93 +120,3 @@ footer_style = """
 
 </html>
 
-"""
-
-information = """
-      <p>  Nếu sau tên người dùng có: <span class="loader"></span> nghĩa là người chơi này có khả năng không được đạt giải hoặc đạt giải khác và đang chờ xác thực,<img class="verified" src="https://s3.vio.edu.vn/assets/img/wrong_icon_2.png"> là người chơi đã nhận phần thưởng nhưng sau đó đã xác nhận là gian lận.</p>
-      <p>  Và nếu tài khoản đó bị đóng do gian lận thì chuyển giải sang người đứng thứ hạng phía sau.</p>
-"""
-
-def generate_h1_tag(filename):
-    title = os.path.splitext(filename)[0]
-    tz_VI = pytz.timezone('Asia/Ho_Chi_Minh')
-    datetime_VI = datetime.now(tz_VI)
-    h1_tag = f"""    <h1 align="center">Top kỳ thủ đạt giải {title}</h1>
-    <h2 align="center">Bạn có thể xem danh sách các kỳ thủ đạt giải {title} <a href="https://thivualaytot.github.io/tournament-history/list/{title}">Ở đây</a>.</h2>
-    <p align="right"><i>Lần cuối cập nhật: {datetime_VI.hour}:{datetime_VI.minute}:{datetime_VI.second}, ngày {datetime_VI.day} tháng {datetime_VI.month} năm {datetime_VI.year}</i></p>"""
-    return h1_tag
-
-def markdown_table_to_html(markdown_table):
-    chesscom = f'https://www.chess.com'
-    lichess = f'https://lichess.org'
-    unverified_icon = f'https://s3.vio.edu.vn/assets/img/wrong_icon_2.png'
-    rows = markdown_table.strip().split('\n')
-    html_table = '      <table class="styled-table">\n'
-    for i, row in enumerate(rows):
-        if '---|---|---' in row:
-            continue
-
-        tag = 'th' if i == 0 else 'td'
-        cells = re.split(r'\s*\|\s*', row)
-
-        if len(cells) == 1 and cells[0] == '':
-            continue
-        
-        html_table += '         <tr>\n'
-        for cell in cells:
-            # Dành cho dòng đầu tiên
-            if cell.endswith('Hạng'):
-                text = cell[0:]
-                cell_content = f'       <{tag} class="stt">{text}</{tag}>'
-            elif cell.endswith('👑'):
-                text = cell[0:]
-                cell_content = f'       <{tag} class="winner">{text}</{tag}>'
-            elif cell.endswith('Các lần đạt giải'):
-                text = cell[0:]
-                cell_content = f'       <{tag}>{text}</{tag}>'
-            # Dành cho tài khoản trên Chess.com
-            elif cell.startswith('? @'):
-                username = cell[3:]
-                cell_content = f'       <{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}" target="_blank">{username}</a> <span class="loader"></span></{tag}>'
-            elif cell.startswith('! @'):
-                username = cell[3:]
-                cell_content = f'       <{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}" target="_blank">{username} <img class="verified" src="{unverified_icon}" title="Tài khoản gian lận"></a></{tag}>'
-            elif cell.startswith('@'):
-                username = cell[1:]
-                cell_content = f'       <{tag}><a href="{chesscom}/member/{username}" title="Xem tài khoản Chess.com của {username}" target="_blank">{username}</a></{tag}>'
-            # Dành cho tài khoản trên Lichess
-            elif cell.startswith('$'):
-                username = cell[1:]
-                cell_content = f'       <{tag}><a href="{lichess}/@/{username}" title="Xem tài khoản Lichess của {username}" target="_blank">{username}</a></{tag}>'
-            # Dành cho các ô/dòng còn lại
-            else:
-                cell_content = f'       <{tag}>{cell}</{tag}>'
-            html_table += f'    {cell_content}\n'
-        html_table += '         </tr>\n'
-    html_table += '''   </table>
-        <br><br><hr>
-    '''
-    return html_table
-
-directories = ['top']
-
-for directory in directories:
-    for filename in os.listdir(directory):
-        if filename.endswith('.md'):
-            with open(os.path.join(directory, filename), 'r') as md_file:
-                if filename in ["thivualaytot.md"]:
-                    f = "tvlt.md"
-                elif filename in ["cobithitot.md"]:
-                    f = "cbtt.md"
-                else:
-                    f = "dttv.md"
-                h1_tag = generate_h1_tag(f)
-                
-                markdown_table = md_file.read()
-                html_table = markdown_table_to_html(markdown_table)
-
-                styled_html_table = css_styles + h1_tag + information + html_table + footer_style
-
-                html_filename = os.path.splitext(f)[0] + '.md'
-                with open(os.path.join(directory, html_filename), 'w') as html_file:
-                    html_file.write(styled_html_table)
