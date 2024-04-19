@@ -67,7 +67,7 @@ css_styles = """<!DOCTYPE html>
             </li>
             <li>
                 <div class="dropdown">
-                    <a class="dropbtn" class="active" href="https://thivualaytot.github.io/list" title="Các danh sách/bảng quan trọng">Danh sách/Tài liệu
+                    <a class="dropbtn, active" href="https://thivualaytot.github.io/list" title="Các danh sách/bảng quan trọng">Danh sách/Tài liệu
                       <i class="bx bx-caret-down"></i>
                     </a>
                     <div class="dropdown-content">
